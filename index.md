@@ -1,12 +1,18 @@
-## Welcome to GitHub Pages
+## Jeff's Portfolio
 
-You can use the [editor on GitHub](https://github.com/jdak907/portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+I like making things and finding solutions.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Introduction
 
-### Markdown
+I am creative, collaborative and a problem solver. With over 20 years
+of diverse experience. I can relate well to people and deliver results
+that make a big impact. I know how to bridge the gap between the
+theoretical and practical.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Because I have many different skills, sometimes it's too much to put
+on a resume. I made this portfolio to showcase some of my work. Just
+scroll down the page and see what things I could possibly help you
+with.
 
 ```markdown
 Syntax highlighted code block
