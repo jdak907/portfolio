@@ -14,17 +14,28 @@ with.
 <br />
 
 
-## Construction Projects
+## Construction & Carpentry Projects
 * ### Extravigant Entryway
-    Total remodel of an entryway. Ralph Lauren "Antique Leather" paint. Tin ceiling with crown molding. Maple wainscoting. Black & White checker PCV tile floor.
+    Total remodel of an [entryway](photos\entry.jpg). Ralph Lauren "Antique Leather" paint. Tin [ceiling](photos\ceiling.jpg) with crown molding. Maple [wainscoting](photos\wainscoting_1.jpg). Black & White checker PCV [tile](photos\floor.jpg) floor.
 * ### Deck Rennovation
-    Concept designed for customer. Removed old decking. Built new deck.
-
+    Concept [designed](photos\deck_plan.jpg) for customer. Removed [old](photos\deck_before.jpg) rotted decking. Built [new](photos\deck_after.jpg) deck.
+* ### New Kitchen In The Cabin
+    Installed [new](photos\kitchen.jpg) cabinets, countertops, sink, faucet and dishwasher.
+* ### New Rain Gutters
+    Removed old rain gutters, painted fascia boards and installed [new](photos\rain_gutter.jpg) rain gutters.
+* ### Custom "Farm House" Style Desks
+    Designed and constructed a matching pair of [desks](photos\desks.jpg).
+* ### Custom "Farm House" Style Kitchen Table & Benches
+    Designed and constructed a large family style [table](photos\table.jpg) with benches.
+* ### Water Damage Repair & Room Renovation
+    Repaired water [damaged](photos\water_damage.jpg) drywall and flooring. [Updated](photos\water_damage_restored.jpg) with new carpet, lighting and paint.
+* ### Custom Gardening Bench
+    Custom built gardening [bench](photos\bench.jpg).
 <br>
 
 ## IT & Development
 * ### Computer Workstation
-    Triple monitor mount, motorized adjustable sit or stand desk and laptop docking station. Photo
+    Triple monitor mount, motorized adjustable sit or stand desk and laptop docking station.
 * ### Server Rack Hardware
     Removed old slide out KVM, replaced with new monitor, keyboard and mouse. Reconfigured rack spacing for more ergonomic use.
 * ### Installation and configuration of server rack hardware and devices. Photo
@@ -36,18 +47,27 @@ with.
 * ### Office 365 & Exchange Email Administration
 * ### Enterprise level rollout and management of Office 365.
 * ### Web Design
-    Website design, graphics, copy and original photography. www.cmi-alaska.com
+    Website design, graphics, copy and original photography for [Central Mechanical, Inc.](www.cmi-alaska.com)
 
 <br>
 
 ## Radio & Electronics Projects
-* ### Ghosts In The Airglow - Art by Amanda Dawn Christie
+* ### Ghosts In The Airglow - by Amanda Dawn Christie
+    Technical collaboration, SDR receiver operation, audio/video decoding
+    via AM/SSB/SSTV and produced real-time livestream event. Check out Amanda's [site](https://www.ghostsintheairglow.space/#home-section) for information and archived [video](https://www.ghostsintheairglow.space/live-feed). Supported by Canada Council for the Arts.
 * ### Fourth State Communications
 * ### Prototyping and PCB design of a circular polarized HF receiving antenna.
     A collaboration with Eric Nichols, KL7AJ. You can find a copy of his book "Receiving Antennas for the Radio Amateur" where the eXogon antenna is featured. Book. Design. Final PCB.
 * ### GNU Radio Flowgraph with DigitalRF (HDF5) Implementation
     Built a simple FM receiver flowgraph that records I/Q data to HDF5 format with the DigitalRF library. SDR is an Ettus N200.
-
+     <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/HeevNOxFUjI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
 <br>
 
 ## Electronics Repair & Installation
@@ -59,8 +79,13 @@ with.
     Certified service technician for Fender, Marshall, Vox and others. Hammond Organ & Leslie Rotating Speakers. Crown & QSC Audio amplifiers. Speaker repair & reconing. Hammond. Crown. Recone.
 * ### Laser Engraver Maintenance
     Routine maintenance and calibration for laser engraving equipment.
-* ### CNC Router & 3D Printer Assembly & Configuration
-    CNC Router & 3D Printer electronics such as stepper motors, motor drivers, motion controllers and VFDs. Gcode and VB macros.
+
+## 3D Design for CNC & 3DP
+* ### Built [CNC](photos\cnc.jpg) Router with 2.2kW water cooled, VFD controlled spindle and enclosure.
+* ### Fusion 360 [modeled](photos\trace_model.jpg) PCB [trace](photos\trace_actual.jpg) for an electronics repair client.
+* ### Guitar neck shaped coat [racks](photos\guitar_coatracks.jpg) for retail music store client.
+* ### Personalized rustic bottle [openers](photos\openers.jpg).
+* ### Fusion 360 [modeled](photos\leader_model.jpg) hinge, 3D printed [parts](photos\leader_parts.jpg) for a vintage Leader Oscilloscope [repair](photos\leader_fixed.jpg).
 
 <br>
 
@@ -74,9 +99,11 @@ with.
 
 <br>
 
-## Photography & Graphic Design
-
-
+## CAD & Graphic Design
+* ### Lowell Digisonde Site Survey for Poker Flat Research Range
+    Used satellite imagery and GIS data to develop a graphical site [plan](photos\ionosonde.jpg) for the installation of an atmospheric scientific instrument called an ionosonde. Incorporated dimensional from Lowell Digisonde installation manual, geographic and mangnetic North, and information from site walk such as pre-existing structures and power lines.
+* ### RF Station Block Diagrams
+    Designed RF transmitter and receiving stations for an R&D project and created a block [diagram](photos\diagram.jpg) used in planning and technical documentation.
 
 
 # Header 1
