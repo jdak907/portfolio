@@ -5,8 +5,7 @@
 I am creative, collaborative and a problem solver. With over 20 years
 of diverse experience. I can relate well to people and deliver results
 that make a big impact. I know how to bridge the gap between the
-theoretical and practical. Because I have many different skills, sometimes it's too much to put on a resume. I made this portfolio to showcase some of my work. Just scroll down the page and see what things I could possibly help you
-with.
+theoretical and practical. Because I have many different skills, it's too much to put on a resume. I made this portfolio to showcase some of my work. Just scroll down and see what things I can do for you or your organization.
 
 > Aut inveniam viam aut faciam.
 > -Hannibal
@@ -16,7 +15,6 @@ with.
 
 ## Construction & Carpentry Projects
 * ### Extravigant Entryway
-    Total remodel of an [entryway](photos\entry.jpg). Ralph Lauren "Antique Leather" paint. Tin [ceiling](photos\ceiling.jpg) with crown molding. Maple [wainscoting](photos\wainscoting_1.jpg). Black & White checker PCV [tile](photos\floor.jpg) floor.
 * ### Deck Rennovation
     Concept [designed](photos\deck_plan.jpg) for customer. Removed [old](photos\deck_before.jpg) rotted decking. Built [new](photos\deck_after.jpg) deck.
 * ### New Kitchen In The Cabin
@@ -35,25 +33,25 @@ with.
 
 ## IT & Development
 * ### Computer Workstation
-    Triple monitor mount, motorized adjustable sit or stand desk and laptop docking station.
+    Triple monitor mount, motorized adjustable sit or stand [desk](photos\pc_workstation.jpg) and laptop docking station.
 * ### Server Rack Hardware
-    Removed old slide out KVM, replaced with new monitor, keyboard and mouse. Reconfigured rack spacing for more ergonomic use.
-* ### Installation and configuration of server rack hardware and devices. Photo
+    Removed old slide out KVM, replaced with new monitor, keyboard and mouse. Reconfigured [rack](photos\server_rack.jpg) spacing for more ergonomic use.
+* ### Installation of rack mounted equipment and cable management.
+    Installed rack mounted audio [amplifiers](photos\cable_management.jpg) and cabling.
 * ### Server & Comm Room Cabling
-    Cleaned up cabling and reorganized mounted devices.
-* ### Equipment layout, mounting, organization of workspaces and cable management. Photo
+    Cleaned up existing cabling, reorganized mounted devices and set up [servers](photos\server_room.jpg).
 * ### Server Software & Hardware Upgrades
 * ### Repair and replace server hardware. Maintain and update operating systems.
 * ### Office 365 & Exchange Email Administration
 * ### Enterprise level rollout and management of Office 365.
 * ### Web Design
-    Website design, graphics, copy and original photography for [Central Mechanical, Inc.](www.cmi-alaska.com)
+    Website design, graphics, copy and original photography for [Central Mechanical, Inc.](http://www.cmi-alaska.com)
 
 <br>
 
 ## Radio & Electronics Projects
 * ### Ghosts In The Airglow - by Amanda Dawn Christie
-    Technical collaboration, SDR receiver operation, audio/video decoding
+    Technical consultation, SDR receiver operation, audio/video decoding
     via AM/SSB/SSTV and produced real-time livestream event. Check out Amanda's [site](https://www.ghostsintheairglow.space/#home-section) for information and archived [video](https://www.ghostsintheairglow.space/live-feed). Supported by Canada Council for the Arts.
 * ### Fourth State Communications
 * ### Prototyping and PCB design of a circular polarized HF receiving antenna.
@@ -92,11 +90,34 @@ with.
 ## Music
 * ### Statik - Empire of The Sun
     Wrote and produced instrumental album. Played guitar, bass, keyboard and MIDI drum sequencing.
+        <iframe
+            src="https://open.spotify.com/embed/album/6wdm291SgsZQ80Lf193DTO"
+            width="500"
+            height="80"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
 * ### The Color Room
     Played guitar & composed multiple tracks collaboratively with four other musicians.
+        <iframe
+            src="https://open.spotify.com/embed/artist/6MxMTkcqY6bcYnHKdSjhnt"
+            width="500"
+            height="80"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
 * ### Wax & Rosewood - Twelve
     Played lead guitar on the track "May [I Would] feat. The Color Room"
-
+<iframe
+          src="https://open.spotify.com/embed/track/0Fx7GQDUP6bP6qrJhTNRZh?theme=0"
+          width="500"
+          height="80"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        ></iframe>
 <br>
 
 ## CAD & Graphic Design
