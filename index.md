@@ -1,4 +1,4 @@
-# Jeff's Portfolio
+
 ![Image](photos\neon_profile.jpg)
 ## _I like finding solutions and making things._
 
@@ -15,16 +15,10 @@ with.
 
 
 ## Construction Projects
-
-<br />
-
-
 * ### Extravigant Entryway
     Total remodel of an entryway. Ralph Lauren "Antique Leather" paint. Tin ceiling with crown molding. Maple wainscoting. Black & White checker PCV tile floor.
-
 * ### Deck Rennovation
     Concept designed for customer. Removed old decking. Built new deck.
-<br>
 
 <br>
 
@@ -43,6 +37,9 @@ with.
 * ### Enterprise level rollout and management of Office 365.
 * ### Web Design
     Website design, graphics, copy and original photography. www.cmi-alaska.com
+
+<br>
+
 ## Radio & Electronics Projects
 * ### Ghosts In The Airglow - Art by Amanda Dawn Christie
 * ### Fourth State Communications
@@ -50,6 +47,9 @@ with.
     A collaboration with Eric Nichols, KL7AJ. You can find a copy of his book "Receiving Antennas for the Radio Amateur" where the eXogon antenna is featured. Book. Design. Final PCB.
 * ### GNU Radio Flowgraph with DigitalRF (HDF5) Implementation
     Built a simple FM receiver flowgraph that records I/Q data to HDF5 format with the DigitalRF library. SDR is an Ettus N200.
+
+<br>
+
 ## Electronics Repair & Installation
 * ### Commercial UHF/VHF Radio Repair & Installation
     Handheld mobile radio repair and refurbishment. Mobile vehicle installation. CB. UHF & CB. Antenna.
@@ -61,6 +61,9 @@ with.
     Routine maintenance and calibration for laser engraving equipment.
 * ### CNC Router & 3D Printer Assembly & Configuration
     CNC Router & 3D Printer electronics such as stepper motors, motor drivers, motion controllers and VFDs. Gcode and VB macros.
+
+<br>
+
 ## Music
 * ### Statik - Empire of The Sun
     Wrote and produced instrumental album. Played guitar, bass, keyboard and MIDI drum sequencing.
@@ -68,6 +71,9 @@ with.
     Played guitar & composed multiple tracks collaboratively with four other musicians.
 * ### Wax & Rosewood - Twelve
     Played lead guitar on the track "May [I Would] feat. The Color Room"
+
+<br>
+
 ## Photography & Graphic Design
 
 
