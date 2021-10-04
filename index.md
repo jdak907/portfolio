@@ -53,9 +53,10 @@ theoretical and practical. Because I have many different skills, it's too much t
 * ### Ghosts In The Airglow - by Amanda Dawn Christie
     Technical consultation, SDR receiver operation, audio/video decoding
     via AM/SSB/SSTV and produced real-time livestream event. Check out Amanda's [site](https://www.ghostsintheairglow.space/#home-section) for information and archived [video](https://www.ghostsintheairglow.space/live-feed). Supported by Canada Council for the Arts.
-* ### Fourth State Communications
+* ### Amateur Radio Science Experiment at HAARP
+    Designed an experiment to test a hypothesis of the phenomenon of Ionospheric Cross-Modulation (Luxembourg Effect). This was the first ever [crowdfunded](https://www.indiegogo.com/projects/amateur-radio-science-experiment-at-haarp#/) science experiment at HAARP.
 * ### Prototyping and PCB design of a circular polarized HF receiving antenna.
-    A collaboration with Eric Nichols, KL7AJ. You can find a copy of his book "Receiving Antennas for the Radio Amateur" where the eXogon antenna is featured. Book. Design. Final PCB.
+    A collaboration with Eric Nichols, KL7AJ - [design](photos\exogon_cad.jpg) and [prototype](photos\exogon_prototype.jpg) resulting in a [PCB](photos\exogon_pcb.jpg) kit for Amateur Radio enthusiasts.  You can find a copy of his book ["Receiving Antennas for the Radio Amateur"](https://www.amazon.com/Receiving-Antennas-Radio-Amateur-Nichols/dp/1625950780) where the eXogon antenna is featured.
 * ### GNU Radio Flowgraph with DigitalRF (HDF5) Implementation
     Built a simple FM receiver flowgraph that records I/Q data to HDF5 format with the DigitalRF library. SDR is an Ettus N200.
      <iframe
@@ -70,20 +71,29 @@ theoretical and practical. Because I have many different skills, it's too much t
 
 ## Electronics Repair & Installation
 * ### Commercial UHF/VHF Radio Repair & Installation
-    Handheld mobile radio repair and refurbishment. Mobile vehicle installation. CB. UHF & CB. Antenna.
+    [Handheld](photos\ht_repair_2.jpg) and [mobile](photos\mobile_repair.jpg) radio repair and [calibration](photos\ifr_test.jpg). Mobile vehicle installation of [UHF/VHF](photos\cb_vhf_install.jpg), [CB](photos\cb_install.jpg) and [antennas](photos\antenna_install.jpg).
 * ### Commercial Cellular Phone Amplification Systems
-    Wilson Electronics. RF site survey. Complete installation. Amplifier. Antenna. RF Survey.
+    Wilson Electronics installation consisting of RF site [survey](photos\cell_survey.jpg), [amplifier](photos\cell_amp.jpg), cabling and [antennas](photos\cell_antenna.jpg).
 * ### Musical Instrument & Audio Electronics
-    Certified service technician for Fender, Marshall, Vox and others. Hammond Organ & Leslie Rotating Speakers. Crown & QSC Audio amplifiers. Speaker repair & reconing. Hammond. Crown. Recone.
+    Certified service technician for Fender, Marshall, [Vox](photos\vox.jpg) and others. [Hammond](photos\hammond.jpg) Organ & Leslie Rotating Speakers. [Crown](photos\crown.jpg) & QSC Audio amplifiers. [Speaker](photos\recone.jpg) repair & reconing.
 * ### Laser Engraver Maintenance
-    Routine maintenance and calibration for laser engraving equipment.
+    Routine [maintenance](photos\laser_engraver.jpg) and calibration for laser engraving equipment.
+
+## Cinema Engineering
+* ### Cinema Engineering & Technical Service
+    [Handheld](photos\ht_repair_2.jpg) and [mobile](photos\mobile_repair.jpg) radio repair and [calibration](photos\ifr_test.jpg). Mobile vehicle installation of [UHF/VHF](photos\cb_vhf_install.jpg), [CB](photos\cb_install.jpg) and [antennas](photos\antenna_install.jpg).
 
 ## 3D Design for CNC & 3DP
-* ### Built [CNC](photos\cnc.jpg) Router with 2.2kW water cooled, VFD controlled spindle and enclosure.
-* ### Fusion 360 [modeled](photos\trace_model.jpg) PCB [trace](photos\trace_actual.jpg) for an electronics repair client.
-* ### Guitar neck shaped coat [racks](photos\guitar_coatracks.jpg) for retail music store client.
-* ### Personalized rustic bottle [openers](photos\openers.jpg).
-* ### Fusion 360 [modeled](photos\leader_model.jpg) hinge, 3D printed [parts](photos\leader_parts.jpg) for a vintage Leader Oscilloscope [repair](photos\leader_fixed.jpg).
+* ### CNC Router Build
+    Built [CNC](photos\cnc.jpg) Router with 2.2kW water cooled, VFD controlled spindle and enclosure.
+* ### CNC Machined Copper PCB Trace
+    Fusion 360 [modeled](photos\trace_model.jpg) PCB [trace](photos\trace_actual.jpg) for an electronics repair client.
+* ### Guitar Neck Coat Rack
+    Guitar neck shaped coat [racks](photos\guitar_coatracks.jpg) for retail music store client.
+* ### Personalized Bottle Opener
+    Personalized rustic bottle [openers](photos\openers.jpg).
+* ### Oscilloscope Handle Repair
+    Fusion 360 [modeled](photos\leader_model.jpg) hinge, 3D printed [parts](photos\leader_parts.jpg) for a vintage Leader Oscilloscope [repair](photos\leader_fixed.jpg).
 
 <br>
 
