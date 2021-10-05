@@ -1,3 +1,6 @@
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" media=”screen” />
+</head>
 
 ![Image](photos\neon_profile_1.jpg)
 
