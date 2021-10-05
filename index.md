@@ -1,16 +1,24 @@
 
 ![Image](photos\neon_profile.jpg)
+
+<br>
+
 ## _I like finding solutions and making things._
 
 I am creative, collaborative and a problem solver. With over 20 years
 of diverse experience. I can relate well to people and deliver results
 that make a big impact. I know how to bridge the gap between the
-theoretical and practical. Because I have many different skills, it's too much to put on a resume. I made this portfolio to showcase some of my work. Just scroll down and see what things I can do for you or your organization.
+theoretical and practical. Because I have many different skills, it's too much to put on a resume. I made this portfolio to showcase some of my work. Just scroll down and see what things I can do for you or your organization. <br>
+_Click on the hyperlinks in the descriptions to see a sample of the work._
 
-> Aut inveniam viam aut faciam.
-> -Hannibal
+<br>
+<br>
 
-<br />
+> ## _[Aut inveniam viam aut faciam.](https://en.wikipedia.org/wiki/Inveniam_viam)_
+> _-Hannibal_
+
+<br>
+<br>
 
 
 ## Construction & Carpentry Projects
