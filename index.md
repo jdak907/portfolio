@@ -25,7 +25,7 @@ theoretical and practical. Because I have many different skills, it's too much t
 ## IT Services
 <div class="container">
   <div class="content">
-    <a href="it.md" target="_blank">
+    <a href="https://jdak907.github.io/portfolio/it.html" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
       <div class="content-details fadeIn-top">
@@ -36,7 +36,7 @@ theoretical and practical. Because I have many different skills, it's too much t
 ## Cinema Engineering & Technical Services
 <div class="container">
   <div class="content">
-    <a href="cinema.md" target="_blank">
+    <a href="cinema.html" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
       <div class="content-details fadeIn-top">
@@ -48,7 +48,7 @@ theoretical and practical. Because I have many different skills, it's too much t
 ## Radio & Electronics Projects
 <div class="container">
   <div class="content">
-    <a href="radio.md" target="_blank">
+    <a href="radio.html" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
       <div class="content-details fadeIn-top">
@@ -60,7 +60,7 @@ theoretical and practical. Because I have many different skills, it's too much t
 ## Electronics Repair & Installation
 <div class="container">
   <div class="content">
-    <a href="electronics.md" target="_blank">
+    <a href="electronics.html" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
       <div class="content-details fadeIn-top">
@@ -73,7 +73,7 @@ theoretical and practical. Because I have many different skills, it's too much t
 ## 3D Design for CNC & 3DP
 <div class="container">
   <div class="content">
-    <a href="3d.md" target="_blank">
+    <a href="3d.html" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
       <div class="content-details fadeIn-top">
@@ -85,7 +85,7 @@ theoretical and practical. Because I have many different skills, it's too much t
 ## CAD & Graphic Design
 <div class="container">
   <div class="content">
-    <a href="design.md" target="_blank">
+    <a href="design.html" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
       <div class="content-details fadeIn-top">
@@ -97,7 +97,7 @@ theoretical and practical. Because I have many different skills, it's too much t
 ## Music
 <div class="container">
   <div class="content">
-    <a href="music.md" target="_blank">
+    <a href="music.html" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
       <div class="content-details fadeIn-top">
@@ -109,7 +109,7 @@ theoretical and practical. Because I have many different skills, it's too much t
 ## Video Production
 <div class="container">
   <div class="content">
-    <a href="video.md" target="_blank">
+    <a href="video.html" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
       <div class="content-details fadeIn-top">
