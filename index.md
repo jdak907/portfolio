@@ -101,31 +101,17 @@ theoretical and practical. Because I have many different skills, it's too much t
 
 <br>
 
-## Video Production
- 
-* ### Alaska Scenery
-    Produced a video picture slideshow of various scenes from Alaska with original acoustic guitar music. (Davince Resolve & Garage Band)
-     <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/watch?v=zSrlpla4SX0"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+## CAD & Graphic Design
+* ### Utiliduct Pipe Support Detail
+    As a mechanical contractor I designed a pipe support [rack](photos\pipe_support.jpg) based on project design specifications, mechanical engineering principles and manufacturer datasheets. These racks were designed under extremely tight tolerances for installation in an existing utility duct. The drawings was used to verify dimensions and appropriately size and specify hardware components. Approved by the design engineering firm and built per these drawings. (Created with DraftSight)
+* ### End-Suction Circulating Pump Piping
+    A 2-dimensional [drawing](photos\pump_piping.jpg) used to determine necessary specifications for weld fittings and pump flex connectors before ordering materials. (Created with DraftSight)
+* ### Lowell Digisonde Site Survey for Poker Flat Research Range
+    Used satellite imagery and GIS data to develop a graphical site [plan](photos\ionosonde.jpg) for the installation of an atmospheric scientific instrument called an ionosonde. Incorporated dimensional from Lowell Digisonde installation manual, geographic and mangnetic North, and information from site walk such as pre-existing structures and power lines.
+* ### RF Station Block Diagrams
+    Designed RF transmitter and receiving stations for an R&D project and created a block [diagram](photos\diagram.jpg) used in planning and technical documentation.
 
-* ### Building Demolition
-    Produced a time-lapse video of a building demolition. This was shot on a GoPro camera with an improvised power supply fed by a portable inverter generator. The constant charging of the battery kept the camera warm in the -20°F weather and enabled me to shoot the entire process without having to change the battery. (GoPro Studio)
-     <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/watch?v=_v9I2o9O9FE"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
 <br>
-
 
 ## Music
 * ### Statik - Empire of The Sun
@@ -168,27 +154,28 @@ theoretical and practical. Because I have many different skills, it's too much t
 
 <br>
 
-## CAD & Graphic Design
-* ### Utiliduct Pipe Support Detail
-    As a mechanical contractor I designed a pipe support [rack](photos\pipe_support.pdf) based on project design specifications, mechanical engineering principles and manufacturer datasheets. These racks were designed under extremely tight tolerances for installation in an existing utility duct. The drawings was used to verify dimensions and appropriately size and specify hardware components. Approved by the design engineering firm and built per these drawings. (Created with DraftSight)
-* ### End-Suction Circulating Pump Piping
-    A 2-dimensional [drawing](photos\pump_piping.pdf) used to determine necessary specifications for weld fittings and pump flex connectors before ordering materials. (Created with DraftSight)
-* ### Lowell Digisonde Site Survey for Poker Flat Research Range
-    Used satellite imagery and GIS data to develop a graphical site [plan](photos\ionosonde.jpg) for the installation of an atmospheric scientific instrument called an ionosonde. Incorporated dimensional from Lowell Digisonde installation manual, geographic and mangnetic North, and information from site walk such as pre-existing structures and power lines.
-* ### RF Station Block Diagrams
-    Designed RF transmitter and receiving stations for an R&D project and created a block [diagram](photos\diagram.jpg) used in planning and technical documentation.
+## Video Production
+ 
+* ### Alaska Scenery
+    Produced a video picture slideshow of various scenes from Alaska with original acoustic guitar music. (Davince Resolve & Garage Band)
+     <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/watch?v=zSrlpla4SX0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
 
+* ### Building Demolition
+    Produced a time-lapse video of a building demolition. This was shot on a GoPro camera with an improvised power supply fed by a portable inverter generator. The constant charging of the battery kept the camera warm in the -20°F weather and enabled me to shoot the entire process without having to change the battery. (GoPro Studio)
+     <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/watch?v=_v9I2o9O9FE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+<br>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
