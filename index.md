@@ -124,37 +124,39 @@ _Click on the hyperlinks in the descriptions to see a sample of the work._
 ## Music
 * ### Statik - Empire of The Sun
     Wrote and produced instrumental album. Played guitar, bass, keyboard and MIDI drum sequencing.
+
 <iframe
-        src="https://open.spotify.com/embed/album/6wdm291SgsZQ80Lf193DTO"
-        width="500"
-        height="80"
-        frameborder="0"
-        allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        ></iframe>
+            src="https://open.spotify.com/embed/album/6wdm291SgsZQ80Lf193DTO"
+            width="500"
+            height="80"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
 
 * ### The Color Room
     Played guitar & composed multiple tracks collaboratively with four other musicians.
+    
 <iframe
-        src="https://open.spotify.com/embed/artist/6MxMTkcqY6bcYnHKdSjhnt"
-        width="500"
-        height="80"
-        frameborder="0"
-        allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        ></iframe>
+            src="https://open.spotify.com/embed/artist/6MxMTkcqY6bcYnHKdSjhnt"
+            width="500"
+            height="80"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
 
 * ### Wax & Rosewood - Twelve
     Played lead guitar on the track "May [I Would] feat. The Color Room"
     
 <iframe
-        src="https://open.spotify.com/embed/track/0Fx7GQDUP6bP6qrJhTNRZh?theme=0"
-        width="500"
-        height="80"
-        frameborder="0"
-        allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        ></iframe>
+            src="https://open.spotify.com/embed/track/0Fx7GQDUP6bP6qrJhTNRZh?theme=0"
+            width="500"
+            height="80"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
 
 * ### HAARP HF CW Radio Transmission & Star Spangled Banner
     Transmitted via shortwave radio by HAARP on 3.25MHz during the Fall 2017 campaign.
