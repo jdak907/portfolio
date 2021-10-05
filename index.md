@@ -44,6 +44,10 @@ _Click on the hyperlinks in the descriptions to see a sample of the work._
 <br>
 
 ## IT & Development
+* ### Web Design
+    Website design, graphics, copy and original photography for [Central Mechanical, Inc.](http://www.cmi-alaska.com)
+* ### Custom Excel Worksheets
+    Glycol [calculator](photos\glycol_calc.jpg) for determining concentrations of glycol and water. [(download here)](photos\Glycol%20Calculator.xls)
 * ### Computer Workstation
     Triple monitor mount, motorized adjustable sit or stand [desk](photos\pc_workstation.jpg) and laptop docking station.
 * ### Server Rack Hardware
@@ -56,8 +60,7 @@ _Click on the hyperlinks in the descriptions to see a sample of the work._
 * ### Repair and replace server hardware. Maintain and update operating systems.
 * ### Office 365 & Exchange Email Administration
 * ### Enterprise level rollout and management of Office 365.
-* ### Web Design
-    Website design, graphics, copy and original photography for [Central Mechanical, Inc.](http://www.cmi-alaska.com)
+
 
 <br>
 
