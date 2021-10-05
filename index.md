@@ -22,7 +22,6 @@ theoretical and practical. Because I have many different skills, it's too much t
 <br>
 
 
-_``` Click on the hyperlinks in the descriptions to see a sample of the work. ```_
 ## Construction & Carpentry Projects
 * ### Extravigant Entryway
     Top to bottom remodel of an [entryway](photos\entry.jpg). Ralph Lauren "Antique Leather" paint.
