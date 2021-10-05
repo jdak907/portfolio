@@ -125,6 +125,8 @@ theoretical and practical. Because I have many different skills, it's too much t
     Used satellite imagery and GIS data to develop a graphical site [plan](photos\ionosonde.jpg) for the installation of an atmospheric scientific instrument called an ionosonde. Incorporated dimensional from Lowell Digisonde installation manual, geographic and mangnetic North, and information from site walk such as pre-existing structures and power lines.
 * ### RF Station Block Diagrams
     Designed RF transmitter and receiving stations for an R&D project and created a block [diagram](photos\diagram.jpg) used in planning and technical documentation.
+* ### Brochure For Mechanical Contractor
+    Designed a double-sided tri-fold [brochure](photos\cmi_brochure.pdf) for Central Mechanical with original copy and photography.
 
 <br>
 
