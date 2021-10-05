@@ -23,7 +23,7 @@ theoretical and practical. Because I have many different skills, it's too much t
 
 
 ## IT Services
-[IT Services](./it.md)
+[IT Services](../it.md)
 <div class="container">
   <div class="content">
     <a href="/it.md" target="_blank">
