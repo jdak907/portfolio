@@ -3,7 +3,7 @@
 
 <br>
 
-## _I like creating solutions and building things._
+## _I like finding solutions and making things._
 
 I am creative, collaborative and a problem solver. With over 20 years
 of diverse experience. I can relate well to people and deliver results
