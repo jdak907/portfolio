@@ -15,6 +15,9 @@ theoretical and practical. Because I have many different skills, it's too much t
 
 ## Construction & Carpentry Projects
 * ### Extravigant Entryway
+    Top to bottom remodel of an [entryway](photos\entry.jpg). Ralph Lauren "Antique Leather" paint.
+    Tin [ceiling](photos\ceiling.jpg) with tin crown molding and [window](photos\window.jpg) trim. Maple [wainscoting](photos\wainscoting_1.jpg). Black and white
+    checkered PCV tile [floor](photos\floor.jpg).
 * ### Deck Rennovation
     Concept [designed](photos\deck_plan.jpg) for customer. Removed [old](photos\deck_before.jpg) rotted decking. Built [new](photos\deck_after.jpg) deck.
 * ### New Kitchen In The Cabin
@@ -29,6 +32,7 @@ theoretical and practical. Because I have many different skills, it's too much t
     Repaired water [damaged](photos\water_damage.jpg) drywall and flooring. [Updated](photos\water_damage_restored.jpg) with new carpet, lighting and paint.
 * ### Custom Gardening Bench
     Custom built gardening [bench](photos\bench.jpg).
+
 <br>
 
 ## IT & Development
@@ -97,6 +101,32 @@ theoretical and practical. Because I have many different skills, it's too much t
 
 <br>
 
+## Video Production
+ 
+* ### Alaska Scenery
+    Produced a video picture slideshow of various scenes from Alaska with original acoustic guitar music. (Davince Resolve & Garage Band)
+     <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/watch?v=zSrlpla4SX0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+
+* ### Building Demolition
+    Produced a time-lapse video of a building demolition. This was shot on a GoPro camera with an improvised power supply fed by a portable inverter generator. The constant charging of the battery kept the camera warm in the -20°F weather and enabled me to shoot the entire process without having to change the battery. (GoPro Studio)
+     <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/watch?v=_v9I2o9O9FE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+<br>
+
+
 ## Music
 * ### Statik - Empire of The Sun
     Wrote and produced instrumental album. Played guitar, bass, keyboard and MIDI drum sequencing.
@@ -139,6 +169,10 @@ theoretical and practical. Because I have many different skills, it's too much t
 <br>
 
 ## CAD & Graphic Design
+* ### Utiliduct Pipe Support Detail
+    As a mechanical contractor I designed a pipe support [rack](photos\pipe_support.pdf) based on project design specifications, mechanical engineering principles and manufacturer datasheets. These racks were designed under extremely tight tolerances for installation in an existing utility duct. The drawings was used to verify dimensions and appropriately size and specify hardware components. Approved by the design engineering firm and built per these drawings. (Created with DraftSight)
+* ### End-Suction Circulating Pump Piping
+    A 2-dimensional [drawing](photos\pump_piping.pdf) used to determine necessary specifications for weld fittings and pump flex connectors before ordering materials. (Created with DraftSight)
 * ### Lowell Digisonde Site Survey for Poker Flat Research Range
     Used satellite imagery and GIS data to develop a graphical site [plan](photos\ionosonde.jpg) for the installation of an atmospheric scientific instrument called an ionosonde. Incorporated dimensional from Lowell Digisonde installation manual, geographic and mangnetic North, and information from site walk such as pre-existing structures and power lines.
 * ### RF Station Block Diagrams
