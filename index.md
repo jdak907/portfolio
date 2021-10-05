@@ -1,119 +1,122 @@
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" media=”screen” />
-</head>
 
-<h1 class="main-title">Contact Jeff Dumps</h1>
-<br><center><img src = "https://jdak907.github.io/portfolio/photos/neon_profile_1.jpg"></center><br>
-<center><h3><font color = "grey">When you just need it DONE.</font></h3></center><br>
-<hr>
-<div class="container">
-  <h3 class="title">Software Development</h3>
-  <div class="content">
-    <a href="https://github.com/jdak907" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
-      <div class="content-details fadeIn-bottom">
-        <h3 class="content-title">If you understand your business, there's good news: </h3>
-        <p class="content-text">Code is solved. Integration, however, remains hypothetical. I won't hold your code hostage and break it on purpose just to make an extra buck.</p>
-      </div>
-    </a>
-  </div>
-</div>
+![Image](photos\neon_profile_1.jpg)
 
+<br>
+
+## _I like finding solutions and making things._
+
+I am creative, collaborative and a problem solver. With over 20 years
+of diverse experience, I can relate well to people and deliver results
+that make a big impact. I know how to bridge the gap between the
+theoretical and practical. Because I have many different skills, it's too much to put on a resume. I made this portfolio to showcase some of my work. Just scroll down and see what things I can do for you or your organization. <br>
+<br>
+
+
+<br>
+<br>
+
+> ## _[Aut inveniam viam aut faciam.](https://en.wikipedia.org/wiki/Inveniam_viam)_
+> _-Hannibal_
+
+<br>
+<br>
+
+
+## IT Services
 <div class="container">
-  <h3 class="title">IT Operations</h3>
   <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+    <a href="it.md" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
       <div class="content-details fadeIn-top">
-        <h3>This is a title</h3>
-        <p>This is a short description</p>
-      </div>
-    </a>
   </div>
 </div>
+<br>
 
+## Cinema Engineering & Technical Services
 <div class="container">
-  <h3 class="title">Construction</h3>
   <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+    <a href="cinema.md" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
-      <div class="content-details fadeIn-left">
-        <h3>This is a title</h3>
-        <p>This is a short description</p>
-      </div>
-    </a>
+      <div class="content-details fadeIn-top">
   </div>
 </div>
+<br>
+<br>
 
+## Radio & Electronics Projects
 <div class="container">
-  <h3 class="title">Radio-Frequency R&D</h3>
   <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+    <a href="radio.md" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
-      <div class="content-details fadeIn-right">
-        <h3>This is a title</h3>
-        <p>This is a short description</p>
-      </div>
-    </a>
+      <div class="content-details fadeIn-top">
   </div>
 </div>
+<br>
+<br>
 
+## Electronics Repair & Installation
 <div class="container">
-  <h3 class="title">Electronics</h3>
   <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+    <a href="electronics.md" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
-      <div class="content-details fadeIn-top fadeIn-left">
-        <h3>This is a title</h3>
-        <p>This is a short description</p>
-      </div>
-    </a>
+      <div class="content-details fadeIn-top">
   </div>
 </div>
+<br>
+<br>
 
+
+## 3D Design for CNC & 3DP
 <div class="container">
-  <h3 class="title">Experiential Engineering</h3>
   <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+    <a href="3d.md" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
-      <div class="content-details fadeIn-top fadeIn-right">
-        <h3>This is a title</h3>
-        <p>This is a short description</p>
-      </div>
-    </a>
+      <div class="content-details fadeIn-top">
   </div>
 </div>
+<br>
+<br>
 
+## CAD & Graphic Design
 <div class="container">
-  <h3 class="title">CAD & Graphic Design</h3>
   <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+    <a href="design.md" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
-      <div class="content-details fadeIn-bottom fadeIn-left">
-        <h3>This is a title</h3>
-        <p>This is a short description</p>
-      </div>
-    </a>
+      <div class="content-details fadeIn-top">
   </div>
 </div>
+<br>
+<br>
 
+## Music
 <div class="container">
-  <h3 class="title">Session Guitaring</h3>
   <div class="content">
-    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+    <a href="music.md" target="_blank">
       <div class="content-overlay"></div>
       <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
-      <div class="content-details fadeIn-bottom fadeIn-right">
-        <h3>This is a title</h3>
-        <p>This is a short description</p>
-      </div>
-    </a>
+      <div class="content-details fadeIn-top">
   </div>
 </div>
+<br>
+<br>
+
+## Video Production
+<div class="container">
+  <div class="content">
+    <a href="video.md" target="_blank">
+      <div class="content-overlay"></div>
+      <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+      <div class="content-details fadeIn-top">
+  </div>
+</div>
+<br>
+
+<br>
+
+### _Thanks for taking a look!_
