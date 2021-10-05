@@ -87,13 +87,17 @@ _Click on the hyperlinks in the descriptions to see a sample of the work._
 * ### Commercial Cellular Phone Amplification Systems
     Wilson Electronics installation consisting of RF site [survey](photos\cell_survey.jpg), [amplifier](photos\cell_amp.jpg), cabling and [antennas](photos\cell_antenna.jpg).
 * ### Musical Instrument & Audio Electronics
-    Certified service technician for Fender, Marshall, [Vox](photos\vox.jpg) and others. [Hammond](photos\hammond.jpg) Organ & Leslie Rotating Speakers. [Crown](photos\crown.jpg) & QSC Audio amplifiers. [Speaker](photos\recone.jpg) repair & reconing.
+    Certified service technician for [Fender](photos\fender.jpg), Marshall, [Vox](photos\vox.jpg) and others. [Hammond](photos\hammond.jpg) Organ & Leslie Rotating Speakers. [Crown](photos\crown.jpg) & QSC Audio amplifiers. Speaker repair & [reconing](photos\recone.jpg).
 * ### Laser Engraver Maintenance
     Routine [maintenance](photos\laser_engraver.jpg) and calibration for laser engraving equipment.
 
 ## Cinema Engineering
 * ### Cinema Engineering & Technical Service
-    [Handheld](photos\ht_repair_2.jpg) and [mobile](photos\mobile_repair.jpg) radio repair and [calibration](photos\ifr_test.jpg). Mobile vehicle installation of [UHF/VHF](photos\cb_vhf_install.jpg), [CB](photos\cb_install.jpg) and [antennas](photos\antenna_install.jpg).
+    Experience maintaining and repairing [Sony](photos\cinema_sony.jpg), [Barco](photos\projection.jpg) and [Christie](photos\cinema_imax.jpg) projectors.
+    Projection color space [calibration](photos\cinema_colorspace.jpg), 3D [alignment](photos\cinema_3d.jpg) and cropping. Auditorium EQ tuning with 4-mic [RTA](photos\cinema_rta.jpg) on audio processors like USL, QSC and Dolby. Maintained server hardware and software for digital projection.
+    Installed and maintained pre-show servers like NCM.
+    Maintained and repaired Eprad automation systems.
+    Repaired projection screens and various auditorium equipment.
 
 ## 3D Design for CNC & 3DP
 * ### CNC Router Build
@@ -173,3 +177,4 @@ _Click on the hyperlinks in the descriptions to see a sample of the work._
     <iframe width="560" height="315" src="https://www.youtube.com/embed/_v9I2o9O9FE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 
+# Thanks for taking a look!
