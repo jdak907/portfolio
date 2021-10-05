@@ -113,6 +113,9 @@ theoretical and practical. Because I have many different skills, it's too much t
     Personalized rustic bottle [openers](photos\openers.jpg).
 * ### Oscilloscope Handle Repair
     Fusion 360 [modeled](photos\leader_model.jpg) hinge, 3D printed [parts](photos\leader_parts.jpg) for a vintage Leader Oscilloscope [repair](photos\leader_fixed.jpg).
+* ### Reproduction Railroad Sign
+    Reproduced a historic [sign](photos\sign.jpg) from the Palmer Railroad Depot from a photograph.
+    Modeled in Fusion 360 and machined an accurate [replica](photos\sign_replica.jpg) on the CNC router.
 
 <br>
 
