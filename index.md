@@ -48,7 +48,7 @@ theoretical and practical. Because I have many different skills, it's too much t
 * ### Web Design
     Website design, graphics, copy and original photography for [Central Mechanical, Inc.](http://www.cmi-alaska.com)
 * ### Custom Excel Worksheets
-    Glycol [calculator](photos\glycol_calc.jpg) for determining concentrations of glycol and water. [(download here)](photos\Glycol%20Calculator.xls)
+    Glycol [calculator](photos\glycol_calc.jpg) for determining concentrations of glycol and water. Formulas images were made with LaTeX typesetting. [(download here)](photos\Glycol%20Calculator.xls)
 * ### Computer Workstation
     Triple monitor mount, motorized adjustable sit or stand [desk](photos\pc_workstation.jpg) and laptop docking station.
 * ### Server Rack Hardware
