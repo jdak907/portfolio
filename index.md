@@ -50,6 +50,10 @@ Scroll down and check out my skillstack. <br>
     Website design, graphics, copy and original photography for [Central Mechanical, Inc.](http://www.cmi-alaska.com)
 * ### Custom Excel Worksheets
     Glycol [calculator](photos\glycol_calc.jpg) for determining concentrations of glycol and water. Formula images were made with LaTeX typesetting. [(download here)](photos\Glycol%20Calculator.xls)
+* ### Deployed GoFormz
+    Converted all of the paper forms to digital for a small mechanical contracting business. Deployed 6 Samsung [tablets](photos\goformz.jpg) to field supervisors with GoFormz.
+    Moving to digital forms made project management much easier with automatic reporting. Received positive feedback from colleagues, increased timely collection of reports
+    and had eliminated virtually all illegible handwriting.
 * ### Computer Workstation
     Triple monitor mount, motorized adjustable sit or stand [desk](photos\pc_workstation.jpg) and laptop docking station.
 * ### Server Rack Hardware
