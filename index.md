@@ -8,7 +8,8 @@
 I am creative, collaborative and a problem solver. With over 20 years
 of diverse experience, I can relate well to people and deliver results
 that make a big impact. I know how to bridge the gap between the
-theoretical and practical. Because I have many different skills, it's too much to put on a resume. I made this portfolio to showcase some of my work. Just scroll down and see what things I can do for you or your organization. <br>
+theoretical and practical. I made this portfolio to showcase some of my work.
+Scroll down and check out my skillstack. <br>
 <br>
 
 
