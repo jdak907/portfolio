@@ -139,7 +139,7 @@ Scroll down and check out my skillstack. <br>
     A black & white newspaper [advertisement](photos\pizza_ad.jpg) for a restaurant.
 <br>
 
-## Advertising & Signage
+## Signage & Displays
 * ### ACS Alaska Store
     Installed [signage](photos\acs_1.jpg) and display [fixtures](photos\acs_2.jpg) at the ACS Alaska store in Fairbanks, Alaska.
 * ### Vehicle Graphics
