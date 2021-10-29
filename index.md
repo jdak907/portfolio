@@ -11,7 +11,6 @@ that make a big impact. I know how to bridge the gap between the
 theoretical and practical. I made this portfolio to showcase some of my work.
 Scroll down and check out my skillstack. <br>
 
-
 <br>
 <br>
 
@@ -68,13 +67,22 @@ Scroll down and check out my skillstack. <br>
 
 * ### Custom Excel Worksheets
 
-    Glycol [calculator](photos\glycol_calc.jpg) for determining concentrations of glycol and water. Formula images were made with LaTeX typesetting. [(download here)](photos\Glycol%20Calculator.xls)
+    Glycol [calculator](photos\glycol_calc.jpg) for determining concentrations of glycol and water.\
+    Formula images were made with LaTeX typesetting. [(download here)](photos\Glycol%20Calculator.xls)
+    $$
+    \left(
+    \frac {\left(\frac {\mathrm{C}_{1}^{} } {100} \cdot \mathrm {V}_{1} \right)+\left(\frac{\mathrm{C}_{2}^{}}{100}\cdot\mathrm{V}_{2}\right)+\ldots=\mathrm{C}_{t}}
+    {\mathrm{V}_{1}+\mathrm{V}_{2}\ldots=\mathrm{V}_{t}}
+    \right)
+    \cdot 100 = \mathrm{C}_{t}\%
+    $$
 
-* ### Deployed GoFormz
 
-    Converted all paper forms to digital for a medium sized mechanical contracting business. Deployed 6 Samsung [tablets](photos\goformz.jpg) to field supervisors with GoFormz.
+* ### GoFormz Corporate Deployment
+
+    Converted all paper forms to digital for a medium sized mechanical contracting business. Deployed 6 Samsung [tablets](photos\goformz.jpg) to field supervisors with GoFormz. Designed digital versions of our paper forms.
     Moving to digital forms made project management much easier with automatic reporting. Received positive feedback from colleagues, increased timely collection of reports
-    and had eliminated virtually all illegible handwriting.
+    and eliminated virtually all illegible handwriting.
 
 * ### Computer Workstation
 
