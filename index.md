@@ -143,7 +143,8 @@ Scroll down and check out my skillstack. <br>
 * ### ACS Alaska Store
     Installed [signage](photos\acs_1.jpg) and display [fixtures](photos\acs_2.jpg) at the ACS Alaska store in Fairbanks, Alaska.
 * ### Vehicle Graphics
-    Installed vinyl [logos](photos\vivint_1.jpg), [lettering](photos\vivint_2.jpg) and perforated window [film](photos\vivint_3.jpg) for Vivint. Installed [graphics](photos\apx_alarm_1.jpg) for APX Alarm.
+    Installed [logos](photos\vivint_1.jpg), [lettering](photos\vivint_2.jpg) and perforated window [film](photos\vivint_3.jpg) for Vivint.
+    Installed [graphics](photos\apx_alarm_1.jpg) for APX Alarm.
 * ### Old Navy Store
     Installed floor [logo](photos\old_navy_1.jpg) and floor [marking](photos]old_navy_2.jpg) with epoxy protection and non-slip texture.
 <br>
