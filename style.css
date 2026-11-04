@@ -33,3 +33,5 @@ blockquote{margin:28px 0 0;padding:16px 20px;border-left:4px solid var(--acc);ba
 @media (max-width:700px){.hero-grid{grid-template-columns:1fr}.portrait{width:160px;height:160px;order:-1}.nav nav{display:none}section{padding:44px 0}}
 @media print{.nav{display:none}details{display:block}}
 .timeline ul{margin:0;padding-left:18px;color:var(--mut)}.timeline ul li{padding:0;margin-bottom:4px}.timeline ul li::before{display:none}
+.timeline .when strong{color:var(--fg)}.timeline ul+.when{margin-top:12px}
+.contracts{font-size:.92rem;color:var(--mut);margin:6px 0 0}.early{margin-top:8px}.early-list{color:var(--mut)}.early-list li{margin-bottom:6px}
