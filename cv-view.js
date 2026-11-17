@@ -1,4 +1,4 @@
-import { metaLine, visibleBullets } from "./cv-model.js";
+import { visibleBullets } from "./cv-model.js";
 
 export function esc(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -20,7 +20,7 @@ export function safeUrl(url) {
   }
 }
 
-export function linkLabel(url) {
+function linkLabel(url) {
   try {
     const parsed = new URL(url);
     const host = parsed.hostname.replace(/^www\./, "");
@@ -46,11 +46,6 @@ function reveal(level, html) {
   return `<div class="reveal from-${level}" data-from="${level}"><div class="reveal-inner">${html}</div></div>`;
 }
 
-function bulletList(bullets, cls) {
-  if (!bullets.length) return "";
-  return `<ul class="bullets ${cls}">${bullets.map((bullet) => `<li>${esc(bullet.text)}</li>`).join("")}</ul>`;
-}
-
 function chips(items, { links = false } = {}) {
   return `<ul class="chips">${items.map((item) => {
     if (!links) return `<li>${esc(item)}</li>`;
@@ -58,6 +53,12 @@ function chips(items, { links = false } = {}) {
     if (!href) return `<li>${esc(item)}</li>`;
     return `<li><a href="${esc(href)}" rel="noopener noreferrer">${esc(linkLabel(href))}</a></li>`;
   }).join("")}</ul>`;
+}
+
+function bulletReveal(entry, level, cls) {
+  const bullets = visibleBullets(entry, level).filter((bullet) => (level === 2 ? bullet.level === 2 : bullet.level >= 3));
+  if (!bullets.length) return "";
+  return reveal(level, `<ul class="bullets ${cls}">${bullets.map((bullet) => `<li>${esc(bullet.text)}</li>`).join("")}</ul>`);
 }
 
 function l4Html(entry) {
@@ -77,97 +78,59 @@ function l4Html(entry) {
     chunks.push(`<h4>${esc(group.label)}</h4>${body}`);
   }
   if (!chunks.length) return "";
-  return reveal(4, `<div class="deep"><p class="kicker">Deep detail</p>${chunks.join("")}</div>`);
+  return reveal(4, `<div class="deep">${chunks.join("")}</div>`);
 }
 
-export function entryBody(entry) {
-  const impact = visibleBullets(entry, 2);
-  const full = visibleBullets(entry, 3).filter((bullet) => bullet.level >= 3);
-  return [
-    entry.l1 ? `<p class="l1">${esc(entry.l1)}</p>` : "",
-    impact.length ? reveal(2, `<p class="kicker">Impact</p>${bulletList(impact, "impact")}`) : "",
-    full.length ? reveal(3, `<p class="kicker">In full</p>${bulletList(full, "full")}`) : "",
-    l4Html(entry)
-  ].join("");
+function sameValue(roles, key) {
+  const values = [...new Set(roles.map((role) => role[key]).filter(Boolean))];
+  return values.length === 1 ? values[0] : "";
 }
 
-export function entryArticle(entry) {
-  const meta = metaLine(entry);
-  return `<article class="entry" id="${esc(entry.id)}" data-kind="${esc(entry.kind)}" data-id="${esc(entry.id)}">
-    <h3>${esc(entry.title)}</h3>
-    ${entry.org ? `<p class="org">${esc(entry.org)}</p>` : ""}
-    ${meta ? `<p class="when">${esc(meta)}</p>` : ""}
-    ${entryBody(entry)}
-  </article>`;
+function groupRoles(roles) {
+  const nodes = new Map(roles.map((role) => [role.id, { ...role, children: [] }]));
+  const roots = [];
+  for (const role of roles) {
+    const node = nodes.get(role.id);
+    if (role.parent && nodes.has(role.parent)) nodes.get(role.parent).children.push(node);
+    else roots.push(node);
+  }
+  const groups = [];
+  for (const role of roots) {
+    const last = groups[groups.length - 1];
+    if (last && last.org && role.org && last.org === role.org) last.roles.push(role);
+    else groups.push({ org: role.org, roles: [role] });
+  }
+  return groups;
 }
 
-export function positioningHtml(items) {
-  return items.map((item) => {
-    if (item.id === "li-areas") {
-      const parts = item.text.split("•").map((part) => part.trim()).filter(Boolean);
-      return reveal(item.level, `<p class="kicker">Areas of expertise</p>${chips(parts)}`);
-    }
-    const cls = item.id === "li-headline" ? "slogan" : item.id === "cv-profile" ? "profile" : "about";
-    const html = `<p class="${cls}">${esc(item.text)}</p>`;
-    return item.level <= 1 ? html : reveal(item.level, html);
-  }).join("");
+function roleHtml(role, opts) {
+  const bits = [];
+  if (opts.nested && role.org) bits.push(role.org);
+  if (role.dates) bits.push(role.dates);
+  if (!opts.location && role.location) bits.push(role.location);
+  if (!opts.type && role.type) bits.push(role.type);
+  const pill = /concurrent/i.test(role.type) ? ` <em class="tag-c">concurrent</em>` : "";
+  const meta = bits.map((bit) => esc(bit)).join(" · ");
+  const cls = opts.nested ? "role role-child" : "role";
+  return `<div class="${cls}" id="${esc(role.id)}" data-kind="role">
+    <p class="when"><strong>${esc(role.title)}</strong>${pill}${meta ? ` · ${meta}` : ""}</p>
+    ${role.l1 ? `<p class="role-line">${esc(role.l1)}</p>` : ""}
+    ${bulletReveal(role, 2, "impact")}
+    ${bulletReveal(role, 3, "full")}
+    ${l4Html(role)}
+    ${(role.children || []).map((child) => roleHtml(child, { location: "", type: "", nested: true })).join("")}
+  </div>`;
 }
 
-export function skillsHtml(skills) {
-  return `<div class="card-grid">${skills.map((group) => {
-    const preview = group.items.slice(0, 8);
-    const rest = group.items.slice(8);
-    return `<article class="entry skill" data-skill-group="${esc(group.id)}">
-      <h3>${esc(group.group)}</h3>
-      <p class="when">${group.items.length} skills</p>
-      ${preview.length ? reveal(2, chips(preview)) : ""}
-      ${rest.length ? reveal(3, chips(rest)) : ""}
-    </article>`;
-  }).join("")}</div>`;
+function groupHtml(group) {
+  const location = sameValue(group.roles, "location");
+  const type = sameValue(group.roles, "type");
+  const extra = [location, type].filter(Boolean).map((bit) => esc(bit)).join(" · ");
+  const head = `<h3>${esc(group.org || "Role")}${extra ? ` <span>· ${extra}</span>` : ""}</h3>`;
+  const body = group.roles.map((role) => roleHtml(role, { location, type, nested: false })).join("");
+  return `<li>${head}${body}</li>`;
 }
 
-export function certsHtml(certs, courses) {
-  const cards = certs.map((cert) => {
-    const deep = [];
-    if (cert.hours) deep.push(cert.hours);
-    if (cert.credential) deep.push(`Credential ${cert.credential}`);
-    return `<article class="entry cert" data-cert="${esc(cert.id)}">
-      <h3>${esc(cert.name)}</h3>
-      ${cert.issuer ? reveal(2, `<p class="issuer">${esc(cert.issuer)}</p>`) : ""}
-      ${cert.date ? reveal(3, `<p class="when">${esc(cert.date)}</p>`) : ""}
-      ${deep.length ? reveal(4, chips(deep)) : ""}
-    </article>`;
-  }).join("");
-  const courseItems = courses.map((course) => {
-    const context = course.context ? reveal(3, `<span class="when">${esc(course.context)}</span>`) : "";
-    return `<li><strong>${esc(course.name)}</strong>${context}</li>`;
-  }).join("");
-  const courseBlock = courses.length
-    ? reveal(2, `<div class="subblock"><h3>Courses</h3><ul class="course-list">${courseItems}</ul></div>`)
-    : "";
-  return `<div class="card-grid">${cards}</div>${courseBlock}`;
-}
-
-export function volunteeringHtml(items, organizations) {
-  const cards = items.map((item) => {
-    const meta = [item.dates, item.cause].filter(Boolean).join(" · ");
-    return `<article class="entry vol" data-vol="${esc(item.id)}">
-      <h3>${esc(item.org)}</h3>
-      ${item.role ? `<p class="org">${esc(item.role)}</p>` : ""}
-      ${meta ? reveal(2, `<p class="when">${esc(meta)}</p>`) : ""}
-      ${item.text ? reveal(3, `<p class="about">${esc(item.text)}</p>`) : ""}
-    </article>`;
-  }).join("");
-  const orgs = organizations.length
-    ? `<div class="subblock"><h3>Organizations</h3>${chips(organizations.map((org) => org.name))}</div>`
-    : "";
-  return `<div class="card-grid">${cards}</div>${orgs}`;
-}
-
-export function personLinks(person) {
-  return person.links.map((link) => {
-    const href = safeUrl(link.url);
-    if (!href) return "";
-    return `<a class="btn ghost" href="${esc(href)}">${esc(link.label)}</a>`;
-  }).join("");
+export function timelineHtml(roles) {
+  return groupRoles(roles).map(groupHtml).join("");
 }
