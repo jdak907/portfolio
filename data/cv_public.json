@@ -1,0 +1,2788 @@
+{
+ "meta": {
+  "version": "1.0",
+  "generated": "2026-11-16",
+  "title": "Jeff Dumps — Master CV (Private)",
+  "levels_legend": {
+   "L1": "One-line headline",
+   "L2": "Key impact bullets (2–3)",
+   "L3": "Full bullets",
+   "L4": "Deep detail: standards, tools, methods, metrics, context"
+  },
+  "levels_cumulative": true,
+  "public_legend": {
+   "true": "OK for public sites",
+   "false": "Private: never publish",
+   "review": "Check before publishing"
+  },
+  "source_legend": {
+   "CV": "resume.pdf",
+   "LI": "LinkedIn profile captured 2026-11-16",
+   "cert": "certificate image",
+   "user": "facts Jeff gave earlier",
+   "Jeff": "Jeff's answers 2026-11-16",
+   "plan": "resolution chosen in the approved plan"
+  },
+  "website_rule": "Show only items whose public flag is true; never show person.contact_private or any L4_private field."
+ },
+ "person": {
+  "name": "Jeff Dumps",
+  "location": "Seal Beach, CA",
+  "location_source": "user (LI shows Long Beach)",
+  "links": [
+   {
+    "label": "LinkedIn",
+    "url": "https://www.linkedin.com/in/jeffdumps/",
+    "source": "LI, CV"
+   },
+   {
+    "label": "GitHub",
+    "url": "https://github.com/jdak907",
+    "source": "CV, user"
+   },
+   {
+    "label": "Portfolio",
+    "url": "https://jdak907.github.io/portfolio",
+    "source": "user"
+   }
+  ]
+ },
+ "positioning": [
+  {
+   "id": "li-headline",
+   "label": "LinkedIn headline",
+   "text": "Building Nuclear Reactors...",
+   "source": "LI",
+   "public": true
+  },
+  {
+   "id": "li-about-1",
+   "label": "LinkedIn About, paragraph 1",
+   "text": "I bring 20+ years of experience spanning energy analytics, construction project management, electronics, RF systems, and emerging technologies. My career has focused on delivering scalable solutions, optimizing data workflows, and leading cross-functional teams to achieve measurable results.",
+   "source": "LI",
+   "public": true
+  },
+  {
+   "id": "li-about-2",
+   "label": "LinkedIn About, paragraph 2",
+   "text": "I’ve managed federal, DoD, and private-sector construction projects up to $20M, overseeing multiple crews and subcontractors, ensuring quality control, and driving projects from pre-construction through closeout. In the energy sector, I’ve structured and analyzed electricity pricing across PJM, ERCOT, NYISO, and ISONE, built automation pipelines with Python and PostgreSQL, and developed dashboards and tools that improved operational efficiency.",
+   "source": "LI",
+   "public": true
+  },
+  {
+   "id": "li-about-3",
+   "label": "LinkedIn About, paragraph 3",
+   "text": "Whether integrating edge-computing IoT systems for first responders, repairing advanced RF electronics, or leading construction crews in the field, I combine hands-on technical expertise with project leadership. I thrive in fast-paced environments, adapt quickly to new challenges, and have a consistent track record of helping organizations innovate, scale, and succeed.",
+   "source": "LI",
+   "public": true
+  },
+  {
+   "id": "li-areas",
+   "label": "LinkedIn Areas of Expertise",
+   "text": "Construction Project Management • Energy Market Analytics • Data Analysis • Python • PostgreSQL • RF & SDR Systems • Systems Integration • Electronics & Testing • Operations Management • Project Leadership • Customer Success",
+   "source": "LI",
+   "public": true
+  },
+  {
+   "id": "cv-profile",
+   "label": "Resume profile",
+   "text": "Motivated, data-driven professional with 20+ years of experience across data consulting, energy analytics, electronics, operations, RF and SDR technology, systems engineering, and construction project management. Combines deep technical knowledge with leadership in startup and operational environments. Adept at designing scalable solutions, optimizing data workflows, and delivering hands-on innovations across disciplines. Seeking a high-impact, ownership-oriented role in a tech-forward company.",
+   "source": "CV",
+   "public": true
+  }
+ ],
+ "skills": [
+  {
+   "group": "Nuclear QA & Regulatory",
+   "group_source": "user",
+   "items": [
+    {
+     "name": "ASME NQA-1",
+     "source": "user, cert",
+     "public": true
+    },
+    {
+     "name": "ANSI/ANS-15.8",
+     "source": "user",
+     "public": true
+    },
+    {
+     "name": "DOE O 414.1",
+     "source": "user",
+     "public": true
+    },
+    {
+     "name": "DOE O 420.1C",
+     "source": "LI, Jeff",
+     "public": true
+    },
+    {
+     "name": "10 CFR 830",
+     "source": "LI, user",
+     "public": true
+    },
+    {
+     "name": "Quality management systems (QMS)",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Configuration management",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Document control",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "CAPA / NCR / corrective action programs (CAP)",
+     "source": "LI, user",
+     "public": true
+    },
+    {
+     "name": "Safety classification reviews",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Non-conformance assessment",
+     "source": "LI, CV",
+     "public": true
+    },
+    {
+     "name": "DOE-HDBK-1208 root cause methodology",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Lessons Learned programs",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Audit protocols and acceptance criteria",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Construction quality control",
+     "source": "LI, user",
+     "public": true
+    },
+    {
+     "name": "Radiation Worker II",
+     "source": "LI, cert",
+     "public": true
+    },
+    {
+     "name": "USACE Quality Control Manager (QCM)",
+     "source": "CV, LI",
+     "public": true
+    }
+   ]
+  },
+  {
+   "group": "Metrology & Inspection",
+   "group_source": "user",
+   "items": [
+    {
+     "name": "Mitutoyo CMM (MCOSMOS, GEOPAK)",
+     "source": "LI, cert",
+     "public": true
+    },
+    {
+     "name": "Keyence VL-870",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Keyence WM-6000",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Creaform HandySCAN (certified)",
+     "source": "CV, LI, cert",
+     "public": true
+    },
+    {
+     "name": "Surphaser scanners",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Mitutoyo precision tools",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "PolyWorks",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "MeshLab",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "SolidWorks",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Keyence software",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "GD&T / ASME Y14.5",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Dimensional inspection",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "3D scanning and as-built validation",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Hydrostatic testing (ASME B31.3 Sec. 345)",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Flange torque specification",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Calibration management / M&TE",
+     "source": "LI, user",
+     "public": true
+    },
+    {
+     "name": "Graphite inspection and cleanroom contamination control",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Laser engraving",
+     "source": "CV",
+     "public": true
+    }
+   ]
+  },
+  {
+   "group": "Software & Data",
+   "group_source": "user",
+   "items": [
+    {
+     "name": "Python",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Pandas",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "NumPy",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Matplotlib",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Plotly",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Jupyter Notebook",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "MATLAB",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "PostgreSQL",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "SQL",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "DBeaver",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Microsoft Excel / VBA",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Microsoft Access",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Tableau",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Power BI",
+     "source": "LI, user",
+     "public": true
+    },
+    {
+     "name": "SharePoint / Power Automate / Power Apps",
+     "source": "LI, user",
+     "public": true
+    },
+    {
+     "name": "C# / .NET",
+     "source": "user",
+     "public": true
+    },
+    {
+     "name": "React",
+     "source": "user",
+     "public": true
+    },
+    {
+     "name": "Three.js",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "HTML / CSS / JavaScript",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "JSON",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "XML",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Git / GitHub",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Visual Studio Code",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "PyCharm",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Web scraping",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "UI design",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "ERCOT API",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Slack API",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Crystal Reports",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Epicor Prophet 21",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "NetSuite ERP",
+     "source": "user",
+     "public": true
+    },
+    {
+     "name": "Data analysis and visualization",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Statistical data analysis",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Big data / analytics",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Data structures",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "System identification (ARX, PEM, Åström-Bell)",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Electronic Data Interchange (EDI)",
+     "source": "CV",
+     "public": true
+    }
+   ]
+  },
+  {
+   "group": "Systems Integration & IT",
+   "group_source": "Suggested",
+   "items": [
+    {
+     "name": "Linux (RHEL / Red Hat, Ubuntu, Debian)",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Windows",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "macOS",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Kubernetes",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "OpenShift / MicroShift",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Docker",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "VMware",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Virtual machines",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Amazon WorkSpaces",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Grafana / Prometheus",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Bash",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "PowerShell",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "MQTT",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "CoT / TAK",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Software-defined networking",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Edge computing / IoT integration",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Exchange / Office 365 / domain management",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Structured cabling",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Network switches",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "RDP / SSH remote support",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Zoho Assist",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "TeamViewer",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "FileZilla",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Box",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Slack",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "IT strategy",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Technical support",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Systems engineering",
+     "source": "CV",
+     "public": true
+    }
+   ]
+  },
+  {
+   "group": "RF/SDR & Space Physics",
+   "group_source": "user",
+   "items": [
+    {
+     "name": "GNU Radio",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "SDR#",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Software-defined radio",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "RF systems",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Spectrum analyzer",
+     "source": "LI, CV",
+     "public": true
+    },
+    {
+     "name": "Oscilloscope",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "RF generators and matching networks",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "RF site surveys",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Two-way radio, repeaters and cellular amplification",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Ionospheric cross-modulation experiments",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "HAARP and Arecibo field operations",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Signal analysis (Python, MATLAB)",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Amateur radio (KL4IU)",
+     "source": "CV, Jeff",
+     "public": true
+    },
+    {
+     "name": "Embedded systems",
+     "source": "CV, LI",
+     "public": true
+    }
+   ]
+  },
+  {
+   "group": "Energy Markets & Analytics",
+   "group_source": "Suggested",
+   "items": [
+    {
+     "name": "PJM, ERCOT, NYISO, ISONE",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Retail electricity costing, pricing and structuring",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Forward price curves",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Demand forecasting",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Risk exposure metrics",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Utility usage data",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Deal booking validation",
+     "source": "CV",
+     "public": true
+    }
+   ]
+  },
+  {
+   "group": "Construction & Project Management",
+   "group_source": "user",
+   "items": [
+    {
+     "name": "Project management (DoD, federal, private; $250K–$20M)",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Pre-construction through closeout",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Crew and subcontractor management",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Mechanical/plumbing estimating",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Submittals, isometrics, CAD redlines, GIS submittals, O&M manuals",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Contract compliance and administration",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Procurement and vendor contracts",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "AutoCAD",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "DraftSight",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Fusion 360",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Trimble GPS (GIS/survey), Trimble TerraSync",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Trimble AutoBid Mechanical",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "OSHA safety programs",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "SWPPP / erosion and sediment control",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Seismic bracing",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "HVAC controls / oil burners",
+     "source": "CV",
+     "public": true
+    }
+   ]
+  },
+  {
+   "group": "Aviation",
+   "group_source": "user",
+   "items": [
+    {
+     "name": "FAA Private Pilot (Airplane)",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Instrument Rating (Airplane)",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "FAA Part 107 sUAS",
+     "source": "CV, LI, cert",
+     "public": true
+    }
+   ]
+  },
+  {
+   "group": "Cinema & Electronics Repair",
+   "group_source": "user",
+   "items": [
+    {
+     "name": "Christie, Barco, Sony and IMAX projectors",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Dolby processors and Dolby Atmos",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "QSC / Crown amplifiers, JBL cinema audio",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Doremi and GDC servers, RAID, KDM",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Eprad automation, NCM pre-show, GDC TMS",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Fathom Events satellite feeds",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Audio visual (AV) systems / digital cinema",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Fender, VOX, Marshall and Korg factory-authorized repair",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Tube amplifier modification and vintage restoration",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Component- and board-level repair",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "KiCad",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Eagle",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "UCCNC",
+     "source": "CV",
+     "public": true
+    }
+   ]
+  },
+  {
+   "group": "Leadership, Operations & Business",
+   "group_source": "Suggested",
+   "items": [
+    {
+     "name": "Operations management",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Technical leadership",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Hiring and team development",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Safety leadership and training",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Training and documentation",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "CRM (Pipedrive)",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Business development",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Research and development (R&D)",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Government sales and technical demonstrations",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Customer success",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Quality control",
+     "source": "CV",
+     "public": true
+    }
+   ]
+  },
+  {
+   "group": "Design & Media",
+   "group_source": "Suggested",
+   "items": [
+    {
+     "name": "Adobe Creative Suite",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "FlexiSign",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Signage and vehicle wraps",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "Photography",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "name": "Graphic design",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "name": "Audacity",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "name": "FL Studio",
+     "source": "CV",
+     "public": true
+    }
+   ]
+  }
+ ],
+ "roles": [
+  {
+   "id": "valar-qms",
+   "org": "Valar Atomics",
+   "title": "QMS Architect",
+   "alt_titles": [],
+   "start": "2026-05",
+   "end": "Present",
+   "dates": "May 2026 – Present",
+   "location": "Hawthorne, CA",
+   "type": "Full-time, on-site",
+   "L1": "Architects the quality management system for Valar Atomics’ Ward250 reactor under the DOE reactor pilot program.",
+   "L1_source": "LI, user",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Support and enhance the Ward250 quality management system for the DOE pilot reactor program, contributing improvements to configuration management, document control, and compliance workflows aligned to 10 CFR Part 830 and DOE Order 420.1C.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Automated and enhanced the existing Calibration Management System using SharePoint/Power Automate: tiered notification workflows, Brady label integration, and CAP register export across the organization’s critical instrument inventory and recurring calibration intervals.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Lead the M&TE/metrology lab and construction quality control.",
+     "source": "user",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Developed and maintain the CAP performance metrics dashboard and a comprehensive health reporting suite; designed a defect code taxonomy (104+ active codes) based on ASME Y14.5 GD&T standards and DOE-HDBK-1208 root cause methodology.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Designed and administer the Ward250 Lessons Learned system, a SharePoint-based knowledge capture platform with PBS/WBS-tagged intake and a Power BI analytics layer; serve as data steward producing a queryable institutional dataset for handoff to follow-on reactor programs.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Authored construction quality procedures, acceptance criteria, and audit protocols for inspection, testing, and component acceptance across fabrication and manufacturing disciplines.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Performed regulatory compliance analyses including non-conformance assessment and safety classification reviews; collaborated with engineering and safety stakeholders on safety classification determinations and design basis alignment for reactor systems.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Designed interactive compliance reporting tools (HTML forms, Power Apps dashboards) enabling real-time CAP/NCR/CAPA data capture and trend analysis; produced formal program performance reports and management reviews.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Build QMS automation with SharePoint/Power Automate, Power BI, and a C#/.NET + React stack.",
+     "source": "user",
+     "public": true
+    }
+   ],
+   "L4": {
+    "standards": [
+     "ASME NQA-1",
+     "DOE O 414.1",
+     "DOE O 420.1C",
+     "10 CFR 830",
+     "ANSI/ANS-15.8",
+     "ASME Y14.5",
+     "DOE-HDBK-1208"
+    ],
+    "tools": [
+     "SharePoint",
+     "Power Automate",
+     "Power Apps",
+     "Power BI",
+     "HTML forms",
+     "NetSuite ERP",
+     "C#/.NET",
+     "React",
+     "Brady label integration"
+    ],
+    "methods": [
+     "Tiered notification workflows",
+     "PBS/WBS-tagged intake",
+     "Defect code taxonomy",
+     "Root cause methodology",
+     "Safety classification reviews"
+    ],
+    "metrics": [
+     "104+ active defect codes"
+    ],
+    "context": "Valar Atomics (Hawthorne, CA) is a nuclear startup building the graphite-moderated HTGR Ward250 under the DOE reactor pilot program."
+   },
+   "L4_source": "LI, user",
+   "L2": [
+    "Support and enhance the Ward250 quality management system for the DOE pilot reactor program, contributing improvements to configuration management, document control, and compliance workflows aligned to 10 CFR Part 830 and DOE Order 420.1C.",
+    "Automated and enhanced the existing Calibration Management System using SharePoint/Power Automate: tiered notification workflows, Brady label integration, and CAP register export across the organization’s critical instrument inventory and recurring calibration intervals."
+   ],
+   "L3": [
+    "Lead the M&TE/metrology lab and construction quality control.",
+    "Developed and maintain the CAP performance metrics dashboard and a comprehensive health reporting suite; designed a defect code taxonomy (104+ active codes) based on ASME Y14.5 GD&T standards and DOE-HDBK-1208 root cause methodology.",
+    "Designed and administer the Ward250 Lessons Learned system, a SharePoint-based knowledge capture platform with PBS/WBS-tagged intake and a Power BI analytics layer; serve as data steward producing a queryable institutional dataset for handoff to follow-on reactor programs.",
+    "Authored construction quality procedures, acceptance criteria, and audit protocols for inspection, testing, and component acceptance across fabrication and manufacturing disciplines.",
+    "Performed regulatory compliance analyses including non-conformance assessment and safety classification reviews; collaborated with engineering and safety stakeholders on safety classification determinations and design basis alignment for reactor systems.",
+    "Designed interactive compliance reporting tools (HTML forms, Power Apps dashboards) enabling real-time CAP/NCR/CAPA data capture and trend analysis; produced formal program performance reports and management reviews.",
+    "Configure NetSuite ERP for quality control of parts, including QL/NQL part suffixes and safety-class bins.",
+    "Build QMS automation with SharePoint/Power Automate, Power BI, and a C#/.NET + React stack."
+   ],
+   "L4_private": {},
+   "public": true
+  },
+  {
+   "id": "valar-tech",
+   "org": "Valar Atomics",
+   "title": "Engineering Technician",
+   "alt_titles": [
+    "Metrology Specialist"
+   ],
+   "start": "2025-11",
+   "end": "2026-05",
+   "dates": "Nov 2025 – May 2026",
+   "location": "Hawthorne, CA",
+   "type": "Full-time, on-site",
+   "L1": "Built and stood up Valar Atomics’ metrology lab, hydrostatic testing program and graphite inspection cleanroom, and hired the inspection and test team.",
+   "L1_source": "CV, LI",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Built and stood up a dedicated metrology lab at the Hawthorne facility; developed and executed a hydrostatic pressure-testing program per ASME B31.3 Sec. 345, including procedures, documentation, training materials, and safety protocols.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Perform dimensional inspection and QA across machined and fabricated components supporting production and R&D, on Mitutoyo CMM, Keyence VL-870 and WM-6000, Creaform HandySCAN (certified), Surphaser scanners, and Mitutoyo precision tools; analysis in Keyence, MeshLab, PolyWorks, and SolidWorks software.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Recruited, hired, and manage two technicians, one focused on CMM/laser scanning and inspection and one supporting hydrostatic testing and mechanical/plumbing systems; provide direct oversight, task coordination, and team and professional development.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Execute 3D scanning workflows for quality assurance, as-built validation, engineering analysis, and design iteration.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Interpret and apply GD&T to make production-critical accept/reject decisions with clear technical justification.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Trained multiple team members on hydrostatic testing processes and safety protocols.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Designed and built a cleanroom environment for graphite inspection and contamination control, including HVAC design and procurement; established graphite inspection workflows, documentation, procedures, and acceptance criteria.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Developed a flange torque specification system including procedures, documentation, and traceability records.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Built repeatable inspection and documentation systems to support rapid production scaling.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Partnered with the Senior Mechanical Designer on drawing interpretation, GD&T, and engineering deviations; identified drawing errors and drove corrections.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Developing drafting best practices aligned with inspection realities (what and how we measure vs. drawing intent).",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Identify nonconformance, supplier issues, and process gaps; communicate findings directly to engineering and leadership.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Acted as interim safety lead: authored OSHA general-industry safety guidelines based on work zones and PPE requirements; created and delivered new-hire safety orientation, integrated into the company-wide safety program.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Supported engineering testing operations, including procedure development for high-power vacuum pump systems (vacuum drying).",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Set up laser engraving systems and trained personnel on operation and workflows.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Supported facility readiness by coordinating with the manufacturer to enable illuminated shop signage for a critical event.",
+     "source": "CV",
+     "public": true
+    }
+   ],
+   "L4": {
+    "standards": [
+     "ASME B31.3 Sec. 345",
+     "GD&T",
+     "OSHA general industry"
+    ],
+    "tools": [
+     "Mitutoyo CMM (MCOSMOS, GEOPAK)",
+     "Keyence VL-870",
+     "Keyence WM-6000",
+     "Creaform HandySCAN",
+     "Surphaser",
+     "Mitutoyo precision tools",
+     "Keyence software",
+     "MeshLab",
+     "PolyWorks",
+     "SolidWorks",
+     "Three.js",
+     "Python",
+     "MATLAB",
+     "Laser engravers"
+    ],
+    "methods": [
+     "ARX",
+     "PEM",
+     "Joint ARX",
+     "Åström-Bell",
+     "Multi-class IIR fitting",
+     "Bode / frequency-domain analysis",
+     "Shock-event detection",
+     "KML export"
+    ],
+    "metrics": [
+     "2 technicians hired",
+     "Logger record time extended about 4x"
+    ],
+    "context": "Certifications earned in this role: Creaform HandySCAN (Nov 2025), Mitutoyo MCOSMOS/GEOPAK (Dec 2025), Radiation Worker II (Jan 2026)."
+   },
+   "L4_source": "CV, LI, cert",
+   "L2": [
+    "Built and stood up a dedicated metrology lab at the Hawthorne facility; developed and executed a hydrostatic pressure-testing program per ASME B31.3 Sec. 345, including procedures, documentation, training materials, and safety protocols.",
+    "Perform dimensional inspection and QA across machined and fabricated components supporting production and R&D, on Mitutoyo CMM, Keyence VL-870 and WM-6000, Creaform HandySCAN (certified), Surphaser scanners, and Mitutoyo precision tools; analysis in Keyence, MeshLab, PolyWorks, and SolidWorks software.",
+    "Recruited, hired, and manage two technicians, one focused on CMM/laser scanning and inspection and one supporting hydrostatic testing and mechanical/plumbing systems; provide direct oversight, task coordination, and team and professional development."
+   ],
+   "L3": [
+    "Execute 3D scanning workflows for quality assurance, as-built validation, engineering analysis, and design iteration.",
+    "Interpret and apply GD&T to make production-critical accept/reject decisions with clear technical justification.",
+    "Trained multiple team members on hydrostatic testing processes and safety protocols.",
+    "Designed and built a cleanroom environment for graphite inspection and contamination control, including HVAC design and procurement; established graphite inspection workflows, documentation, procedures, and acceptance criteria.",
+    "Developed a flange torque specification system including procedures, documentation, and traceability records.",
+    "Built repeatable inspection and documentation systems to support rapid production scaling.",
+    "Partnered with the Senior Mechanical Designer on drawing interpretation, GD&T, and engineering deviations; identified drawing errors and drove corrections.",
+    "Developing drafting best practices aligned with inspection realities (what and how we measure vs. drawing intent).",
+    "Identify nonconformance, supplier issues, and process gaps; communicate findings directly to engineering and leadership.",
+    "Developed an internal web-based Three.js 3D scan viewer that lets engineers and stakeholders view and analyze STL scans in the browser without specialized software.",
+    "Acted as interim safety lead: authored OSHA general-industry safety guidelines based on work zones and PPE requirements; created and delivered new-hire safety orientation, integrated into the company-wide safety program.",
+    "Supported engineering testing operations, including procedure development for high-power vacuum pump systems (vacuum drying).",
+    "Set up laser engraving systems and trained personnel on operation and workflows.",
+    "Supported facility readiness by coordinating with the manufacturer to enable illuminated shop signage for a critical event."
+   ],
+   "public": true
+  },
+  {
+   "id": "cruxtech",
+   "org": "CruxTech",
+   "title": "Systems Integration Contractor",
+   "alt_titles": [
+    "Independent Contractor (LinkedIn)"
+   ],
+   "start": "2025-05",
+   "end": "2025-11",
+   "dates": "May 2025 – Nov 2025",
+   "location": "Washington, DC / Remote",
+   "type": "Contract",
+   "L1": "Integrated multi-vendor sensors into edge-computing IoT systems for law enforcement and first responders.",
+   "L1_source": "CV",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Cross-disciplinary management supporting the development and deployment of edge computing systems.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Configured and integrated sensors from multiple vendors into a unified system.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Platform work across RHEL, MicroShift, Kubernetes, and software-defined networking.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Development and integration with Python, Bash, XML, CoT, MQTT, and TAK.",
+     "source": "CV, LI",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "Windows",
+     "RHEL",
+     "MicroShift",
+     "Kubernetes",
+     "Docker",
+     "VMware",
+     "Grafana/Prometheus",
+     "Git",
+     "Bash",
+     "Python",
+     "XML",
+     "MQTT",
+     "CoT",
+     "TAK",
+     "Software-defined networking",
+     "Data visualization"
+    ],
+    "context": "CruxTech provides advanced computing, networked solutions, and AI-enabled Internet of Things (IoT) devices to federal, state, and local law enforcement and first responders in support of the nation’s defense. LinkedIn lists this period as Independent Contractor (Self), Los Angeles, Remote."
+   },
+   "L4_source": "CV, LI",
+   "L2": [
+    "Cross-disciplinary management supporting the development and deployment of edge computing systems.",
+    "Configured and integrated sensors from multiple vendors into a unified system."
+   ],
+   "L3": [
+    "Platform work across RHEL, MicroShift, Kubernetes, and software-defined networking.",
+    "Development and integration with Python, Bash, XML, CoT, MQTT, and TAK."
+   ],
+   "public": true
+  },
+  {
+   "id": "atp",
+   "org": "ATP Flight School",
+   "title": "Professional Development: Flight Training",
+   "alt_titles": [
+    "Career break (LinkedIn)"
+   ],
+   "start": "2024-06",
+   "end": "2025-04",
+   "dates": "Jun 2024 – Apr 2025",
+   "location": "Colorado Springs & Centennial, CO",
+   "type": "Professional development",
+   "L1": "Earned FAA Private Pilot License, Instrument Rating and Part 107 sUAS license.",
+   "L1_source": "CV, LI",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Earned the FAA Private Pilot License (Nov 2024) and Instrument Rating, Airplane (Mar 2025).",
+     "source": "LI, Jeff",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Earned the FAA Part 107 sUAS (drone) license.",
+     "source": "CV, LI",
+     "public": true
+    }
+   ],
+   "L4": {
+    "context": "Also issued in this period: FCC Restricted Radiotelephone Operator Permit (Feb 2025). FAA Safety Team course “Part 107 Small UAS Initial – Part 61 Pilots” completed 26 Mar 2025; Part 107 certificate issued May 2025."
+   },
+   "L4_source": "LI, cert",
+   "L2": [
+    "Earned the FAA Private Pilot License (Nov 2024) and Instrument Rating, Airplane (Mar 2025).",
+    "Earned the FAA Part 107 sUAS (drone) license."
+   ],
+   "L3": [],
+   "public": true
+  },
+  {
+   "id": "david-supply",
+   "org": "David Energy",
+   "title": "Supply Analyst",
+   "alt_titles": [
+    "Energy Supply Analyst / Pricing Analyst (resume)"
+   ],
+   "start": "2022-09",
+   "end": "2024-07",
+   "dates": "Sep 2022 – Jul 2024",
+   "location": "Brooklyn, NY (Remote)",
+   "type": "Full-time",
+   "L1": "Priced and structured retail electricity deals across PJM, ISONE, NYISO and ERCOT, and automated the data pipelines behind them.",
+   "L1_source": "CV, LI",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Assisted in daily pricing activities: performed costing, pricing, and structuring of retail electricity transactions across PJM, ISONE, NYISO, and ERCOT.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Designed and deployed ERCOT energy price prediction DR tools with the ERCOT API and a Slack App.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Built custom web-scrapers and UIs to automate energy data downloads from utilities.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Set up and maintained historical usage datasets in David Energy’s internal data infrastructure.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Investigated and resolved gaps in energy usage data to ensure accuracy in downstream analytics.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Maintained and transformed utility usage data (PostgreSQL, Python, Excel).",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Supported structuring and pricing requests for commercial and industrial clients by analyzing historical usage data and forecasting demand.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Maintained forward price curves for electricity and validated pricing assumptions.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Developed analytics dashboards and automation scripts for internal stakeholders.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Created VBA macros for Excel-based data pipelines and PostgreSQL ingestion.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Contributed to the development and refinement of internal application platforms used for cost modeling and pricing.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Managed and validated deal bookings into internal systems to ensure data integrity and process compliance.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Analyzed market fundamentals, pricing components, and risk exposure metrics related to customer transactions.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Participated in the design of scalable database infrastructure to support automation and future growth.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Collaborated closely with Sales and Engineering teams to improve operational workflows and ensure accurate pricing delivery.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Wrote and maintained automation scripts (Python, SQL, Excel VBA) to streamline energy data ingestion, analysis, and reporting.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Maintained awareness of market news and regulatory changes impacting wholesale and retail electricity.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Contributed across departments, self-directing priorities and meeting critical deadlines in a fast-paced environment.",
+     "source": "CV, LI",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "PostgreSQL",
+     "Python",
+     "SQL",
+     "Excel / VBA",
+     "ERCOT API",
+     "Slack App",
+     "Web scrapers"
+    ],
+    "markets": [
+     "PJM",
+     "ISONE",
+     "NYISO",
+     "ERCOT"
+    ],
+    "methods": [
+     "Costing, pricing and structuring",
+     "Forward price curves",
+     "Demand forecasting",
+     "Risk exposure metrics",
+     "Deal booking validation"
+    ],
+    "context": "Retail electricity supplier based in Brooklyn, NY; role was remote."
+   },
+   "L4_source": "CV, LI",
+   "L2": [
+    "Assisted in daily pricing activities: performed costing, pricing, and structuring of retail electricity transactions across PJM, ISONE, NYISO, and ERCOT.",
+    "Designed and deployed ERCOT energy price prediction DR tools with the ERCOT API and a Slack App.",
+    "Built custom web-scrapers and UIs to automate energy data downloads from utilities."
+   ],
+   "L3": [
+    "Set up and maintained historical usage datasets in David Energy’s internal data infrastructure.",
+    "Investigated and resolved gaps in energy usage data to ensure accuracy in downstream analytics.",
+    "Maintained and transformed utility usage data (PostgreSQL, Python, Excel).",
+    "Supported structuring and pricing requests for commercial and industrial clients by analyzing historical usage data and forecasting demand.",
+    "Maintained forward price curves for electricity and validated pricing assumptions.",
+    "Developed analytics dashboards and automation scripts for internal stakeholders.",
+    "Created VBA macros for Excel-based data pipelines and PostgreSQL ingestion.",
+    "Contributed to the development and refinement of internal application platforms used for cost modeling and pricing.",
+    "Managed and validated deal bookings into internal systems to ensure data integrity and process compliance.",
+    "Analyzed market fundamentals, pricing components, and risk exposure metrics related to customer transactions.",
+    "Participated in the design of scalable database infrastructure to support automation and future growth.",
+    "Collaborated closely with Sales and Engineering teams to improve operational workflows and ensure accurate pricing delivery.",
+    "Wrote and maintained automation scripts (Python, SQL, Excel VBA) to streamline energy data ingestion, analysis, and reporting.",
+    "Maintained awareness of market news and regulatory changes impacting wholesale and retail electricity.",
+    "Contributed across departments, self-directing priorities and meeting critical deadlines in a fast-paced environment."
+   ],
+   "public": true
+  },
+  {
+   "id": "david-consult",
+   "org": "David Energy",
+   "title": "Data Consultant",
+   "alt_titles": [],
+   "start": "2022-02",
+   "end": "2022-09",
+   "dates": "Feb 2022 – Sep 2022",
+   "location": "Brooklyn, NY (Remote)",
+   "type": "Contract",
+   "L1": "Onboarded retail electricity customers and automated operations tasks before moving to the supply team.",
+   "L1_source": "LI",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Assisted operations with CRM setup for retail customers, establishing LOAs and loading account usage data.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Built automation processes for common operations tasks with Excel VBA.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Researched customer electric bills, verified account details, and qualified accurate information.",
+     "source": "LI",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "CRM",
+     "Excel VBA"
+    ],
+    "methods": [
+     "Letters of authorization (LOAs)",
+     "Account usage data loading"
+    ]
+   },
+   "L4_source": "LI",
+   "L2": [
+    "Assisted operations with CRM setup for retail customers, establishing LOAs and loading account usage data.",
+    "Built automation processes for common operations tasks with Excel VBA."
+   ],
+   "L3": [
+    "Researched customer electric bills, verified account details, and qualified accurate information."
+   ],
+   "public": true
+  },
+  {
+   "id": "delmi",
+   "org": "Delmi Training Institute",
+   "title": "Chief Technology Officer",
+   "alt_titles": [
+    "Chief Technical Officer (resume)"
+   ],
+   "start": "2021-11",
+   "end": "2022-11",
+   "dates": "Nov 2021 – Nov 2022",
+   "location": "Toronto, ON",
+   "type": "Part-time",
+   "L1": "Built the eLearning infrastructure and electronic security bootcamp for a Toronto training institute.",
+   "L1_source": "CV, LI",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Established eLearning infrastructure and an electronic security bootcamp.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Designed remote network tools using Linux for CCTV and wireless systems access for the virtual classroom.",
+     "source": "CV, LI",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "Linux",
+     "VMware",
+     "Structured cabling",
+     "CCTV",
+     "Wireless systems"
+    ]
+   },
+   "L4_source": "CV, LI",
+   "L2": [
+    "Established eLearning infrastructure and an electronic security bootcamp.",
+    "Designed remote network tools using Linux for CCTV and wireless systems access for the virtual classroom."
+   ],
+   "L3": [],
+   "public": true
+  },
+  {
+   "id": "frontier-eng",
+   "org": "Frontier Engineering (Frontier RF)",
+   "title": "Electronics Technician",
+   "alt_titles": [],
+   "start": "2020-07",
+   "end": "2021-10",
+   "dates": "Jul 2020 – Oct 2021",
+   "location": "Greeley, CO",
+   "type": "Contract, part-time",
+   "L1": "Created repair procedures and an embedded test system for RF matching units and generators serving Samsung’s Taylor Fab.",
+   "L1_source": "CV, LI",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Developed and led the creation of repair procedures and workflow for network matching units for Samsung’s Taylor Fab.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Collaborated with the Lead Engineer to design and develop a Debian-based embedded test system with a Python-coded GUI for Mattson RF matching units.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Diagnosed, repaired, and tested RF generator systems (Mattson, Advanced Energy), including Advanced Energy RFG 3kW RF generators and Mattson RFS matching networks.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Authored lab manuals and internal documentation; supported R&D improvements.",
+     "source": "CV, LI",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "Debian Linux",
+     "Python GUI",
+     "Spectrum analyzer",
+     "Advanced Energy RFG 3kW generators",
+     "Mattson RFS matching networks"
+    ]
+   },
+   "L4_source": "CV, LI",
+   "L2": [
+    "Developed and led the creation of repair procedures and workflow for network matching units for Samsung’s Taylor Fab.",
+    "Collaborated with the Lead Engineer to design and develop a Debian-based embedded test system with a Python-coded GUI for Mattson RF matching units."
+   ],
+   "L3": [
+    "Diagnosed, repaired, and tested RF generator systems (Mattson, Advanced Energy), including Advanced Energy RFG 3kW RF generators and Mattson RFS matching networks.",
+    "Authored lab manuals and internal documentation; supported R&D improvements."
+   ],
+   "public": true
+  },
+  {
+   "id": "lucid",
+   "org": "Lucid UVC",
+   "title": "Chief Technical Officer / Co-Founder",
+   "alt_titles": [],
+   "start": "2020-07",
+   "end": "2021-07",
+   "dates": "Jul 2020 – Jul 2021",
+   "location": "Cheyenne, WY",
+   "type": "Self-employed",
+   "L1": "Co-founded a UV-C disinfection lighting company and led its technical strategy, R&D and government sales.",
+   "L1_source": "CV, LI",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Directed technical strategy and R&D for UV-C disinfection lighting products.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Led government sales and product demonstrations; developed training materials.",
+     "source": "CV, LI",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "Technical demonstrations",
+     "Product design"
+    ]
+   },
+   "L4_source": "LI",
+   "L2": [
+    "Directed technical strategy and R&D for UV-C disinfection lighting products.",
+    "Led government sales and product demonstrations; developed training materials."
+   ],
+   "L3": [],
+   "public": true
+  },
+  {
+   "id": "fourth-state",
+   "org": "Fourth State Communications, LLC",
+   "title": "Director of Operations",
+   "alt_titles": [],
+   "start": "2017-10",
+   "end": "2021-07",
+   "dates": "Oct 2017 – Jul 2021",
+   "location": "Cheyenne, WY Area",
+   "type": "Contract, held concurrently with other employment",
+   "L1": "Built SDR radio systems and ran field experiments at HAARP and Arecibo, contributing to an SBIR Phase II award.",
+   "L1_source": "CV, LI",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Developed software and hardware systems meeting experiment design criteria, leading to an SBIR Phase II award and grants through AFWERX and the Doolittle Institute.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Ran field operations and radio experiments at HAARP and Arecibo Observatory, deploying remote comms stations at both sites.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Designed, built, and manufactured RF transceiver stations, radio hardware, software, and computer systems for a successful proof of concept: SDR, GNU Radio, Ubuntu Linux ISO image deployment, and Python and MATLAB signal analysis.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Collaborated with the chief scientist to achieve a second successful proof of concept.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Managed procurement, logistics, and SDR-based RF experimentation.",
+     "source": "CV",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "Software-defined radio",
+     "GNU Radio",
+     "Ubuntu Linux ISO images",
+     "Python",
+     "MATLAB",
+     "Analytics"
+    ]
+   },
+   "L4_source": "CV, LI",
+   "L2": [
+    "Developed software and hardware systems meeting experiment design criteria, leading to an SBIR Phase II award and grants through AFWERX and the Doolittle Institute.",
+    "Ran field operations and radio experiments at HAARP and Arecibo Observatory, deploying remote comms stations at both sites.",
+    "Designed, built, and manufactured RF transceiver stations, radio hardware, software, and computer systems for a successful proof of concept: SDR, GNU Radio, Ubuntu Linux ISO image deployment, and Python and MATLAB signal analysis."
+   ],
+   "L3": [
+    "Collaborated with the chief scientist to achieve a second successful proof of concept.",
+    "Managed procurement, logistics, and SDR-based RF experimentation."
+   ],
+   "public": true
+  },
+  {
+   "id": "star-lab",
+   "org": "STAR Laboratory",
+   "title": "Owner / Electronics & Cinema Technician",
+   "alt_titles": [
+    "Owner / Technician (LinkedIn)"
+   ],
+   "start": "2017-02",
+   "end": "2020-02",
+   "dates": "Feb 2017 – Feb 2020",
+   "location": "Fairbanks & Palmer, AK",
+   "type": "Self-employed",
+   "L1": "Ran a self-employed cinema engineering and factory-authorized electronics repair business, including a Regal Cinemas contract for the state of Alaska.",
+   "L1_source": "Jeff, CV, LI",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Held a contract with Regal Cinemas for the state of Alaska; provided rollout support and 24/7 field service for Regal Cinemas and regional chains, ensuring reliable projection, audio, automation, and compliance.",
+     "source": "Jeff, CV, LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Delivered full-spectrum cinema engineering services for national exhibitors and independent theatres under contracts with CinemaNext, Sonic Equipment Company, Regal Cinemas, and Ymages.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Operated a factory-authorized repair shop for Fender, VOX, Marshall, and Korg, performing factory-certified repair for major music electronics manufacturers in Alaska and certified service and warranty repair for regional music stores in Fairbanks and Palmer.",
+     "source": "Jeff, CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Installed, calibrated, and maintained Christie, Barco, Sony, and IMAX projectors.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Serviced Dolby processors and Dolby Atmos systems, QSC/Crown amplifiers, and JBL cinema audio.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Managed Doremi and GDC servers, RAID storage, and KDM workflows for secure content delivery.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Integrated Eprad automation systems and maintained National CineMedia (NCM) pre-show computers.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Supported satellite event cinema feeds (Fathom Events) for alternative content distribution.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Implemented and supported Theatre Management Systems (TMS), including GDC TMS.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Delivered remote IT support via RDP and SSH for booth servers and networked systems: server maintenance, troubleshooting, and software updates.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Performed custom modifications for tube guitar amplifiers, improving tonal characteristics and usability for professional musicians.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Restored and repaired vintage amplifiers, preserving classic circuitry and components; serviced PA systems for musicians, studios, and live venues.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Specialized in diagnostics, prototyping, and component- and board-level repairs across analog and digital circuits.",
+     "source": "CV, LI",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "Christie, Barco, Sony, IMAX projectors",
+     "Dolby processors, Dolby Atmos",
+     "QSC/Crown amplifiers",
+     "JBL cinema audio",
+     "Doremi and GDC servers",
+     "RAID",
+     "KDM",
+     "Eprad automation",
+     "NCM pre-show",
+     "GDC TMS",
+     "RDP",
+     "SSH"
+    ],
+    "context": "Clients: CinemaNext, Sonic Equipment Company, Regal Cinemas, Ymages, independent contracts. Factory-authorized brands: Fender, VOX, Marshall, Korg."
+   },
+   "L4_source": "CV, LI, Jeff",
+   "L2": [
+    "Held a contract with Regal Cinemas for the state of Alaska; provided rollout support and 24/7 field service for Regal Cinemas and regional chains, ensuring reliable projection, audio, automation, and compliance.",
+    "Delivered full-spectrum cinema engineering services for national exhibitors and independent theatres under contracts with CinemaNext, Sonic Equipment Company, Regal Cinemas, and Ymages.",
+    "Operated a factory-authorized repair shop for Fender, VOX, Marshall, and Korg, performing factory-certified repair for major music electronics manufacturers in Alaska and certified service and warranty repair for regional music stores in Fairbanks and Palmer."
+   ],
+   "L3": [
+    "Installed, calibrated, and maintained Christie, Barco, Sony, and IMAX projectors.",
+    "Serviced Dolby processors and Dolby Atmos systems, QSC/Crown amplifiers, and JBL cinema audio.",
+    "Managed Doremi and GDC servers, RAID storage, and KDM workflows for secure content delivery.",
+    "Integrated Eprad automation systems and maintained National CineMedia (NCM) pre-show computers.",
+    "Supported satellite event cinema feeds (Fathom Events) for alternative content distribution.",
+    "Implemented and supported Theatre Management Systems (TMS), including GDC TMS.",
+    "Delivered remote IT support via RDP and SSH for booth servers and networked systems: server maintenance, troubleshooting, and software updates.",
+    "Performed custom modifications for tube guitar amplifiers, improving tonal characteristics and usability for professional musicians.",
+    "Restored and repaired vintage amplifiers, preserving classic circuitry and components; serviced PA systems for musicians, studios, and live venues.",
+    "Specialized in diagnostics, prototyping, and component- and board-level repairs across analog and digital circuits."
+   ],
+   "public": true
+  },
+  {
+   "id": "sonic",
+   "org": "Sonic Equipment Company",
+   "title": "Digital Service Technician",
+   "alt_titles": [],
+   "start": "2019-01",
+   "end": "2020-02",
+   "dates": "Jan 2019 – Feb 2020",
+   "location": "Greater Anchorage Area, AK",
+   "type": "Held within the STAR Laboratory period",
+   "parent": "star-lab",
+   "L1": "Digital cinema service technician for Sonic Equipment Company in the Anchorage area.",
+   "L1_source": "LI",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Delivered cinema engineering services for national exhibitors and independent theatres: projection, cinema audio, servers and KDM workflows, automation, and theatre management systems.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Shared duties are listed in full under STAR Laboratory.",
+     "source": "LI",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "Project management",
+     "Barco",
+     "Digital cinema"
+    ]
+   },
+   "L4_source": "LI",
+   "L2": [
+    "Delivered cinema engineering services for national exhibitors and independent theatres: projection, cinema audio, servers and KDM workflows, automation, and theatre management systems."
+   ],
+   "L3": [
+    "Shared duties are listed in full under STAR Laboratory."
+   ],
+   "public": true
+  },
+  {
+   "id": "radio-fairbanks",
+   "org": "Radio Fairbanks",
+   "title": "Radio Technician",
+   "alt_titles": [],
+   "start": "2017-11",
+   "end": "2018-09",
+   "dates": "Nov 2017 – Sep 2018",
+   "location": "Fairbanks, AK",
+   "type": "",
+   "L1": "Installed and maintained mobile and base radio systems, repeaters and cellular amplification systems.",
+   "L1_source": "CV",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Installed, maintained, and repaired mobile and base radio systems, repeaters, and cellular amplification systems.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Conducted RF site surveys, spectrum analysis, and equipment calibration.",
+     "source": "CV",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "Spectrum analyzer",
+     "RF site surveys",
+     "Repeaters",
+     "Cellular amplifiers"
+    ]
+   },
+   "L4_source": "CV",
+   "L2": [
+    "Installed, maintained, and repaired mobile and base radio systems, repeaters, and cellular amplification systems.",
+    "Conducted RF site surveys, spectrum analysis, and equipment calibration."
+   ],
+   "L3": [],
+   "public": true
+  },
+  {
+   "id": "central-mech",
+   "org": "Central Mechanical & Central Environmental",
+   "title": "Construction Manager / Project Engineer / IT",
+   "alt_titles": [],
+   "start": "2012-05",
+   "end": "2017-11",
+   "dates": "Stint 1: May 2012 – May 2015 · Stint 2: Aug 2016 – Nov 2017",
+   "stints": [
+    [
+     "2012-05",
+     "2015-05"
+    ],
+    [
+     "2016-08",
+     "2017-11"
+    ]
+   ],
+   "location": "Fairbanks, AK",
+   "type": "Two stints, with Slayden Plumbing & Heating in between",
+   "L1": "Managed DoD, federal and private construction projects from $250K to $20M, from pre-construction through closeout.",
+   "L1_source": "CV, LI",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Project manager for DoD, federal, and private construction projects ranging from $250K to $20M; oversaw projects from pre-construction through closeout, consistently achieving budget, schedule, and quality targets.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Managed multiple work crews and subcontractors; oversaw quality control, contract compliance, and stakeholder coordination.",
+     "source": "CV, LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Designed the utiliduct piping system for the North Post Laterals Replacement at Fort Wainwright (see Projects).",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Estimated mechanical and plumbing project bids.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Project administration and submittals from pre-construction to closeout, including isometrics, CAD redlines, GIS submittals, and O&M manuals.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Developed Access databases and Excel tools for reporting and QA/QC.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Provided IT support, CAD documentation, and staff technical training.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Produced photography, graphic design, and content for the company website (see Projects).",
+     "source": "LI",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "Trimble AutoBid Mechanical",
+     "Trimble GPS equipment (GIS/survey)",
+     "Trimble TerraSync",
+     "AutoCAD",
+     "DraftSight",
+     "Microsoft Access",
+     "Excel"
+    ],
+    "context": "Certifications from the first stint (approximate dates): USACE QCM, OSHA 30, Confined Space Entry, Alaska CESCL/SWPPP, MSHA Part 48 Surface, Beckett/Tekmar. Course: Asbestos Awareness."
+   },
+   "L4_source": "CV, LI, Jeff",
+   "L2": [
+    "Project manager for DoD, federal, and private construction projects ranging from $250K to $20M; oversaw projects from pre-construction through closeout, consistently achieving budget, schedule, and quality targets.",
+    "Managed multiple work crews and subcontractors; oversaw quality control, contract compliance, and stakeholder coordination.",
+    "Designed the utiliduct piping system for the North Post Laterals Replacement at Fort Wainwright (see Projects)."
+   ],
+   "L3": [
+    "Estimated mechanical and plumbing project bids.",
+    "Project administration and submittals from pre-construction to closeout, including isometrics, CAD redlines, GIS submittals, and O&M manuals.",
+    "Developed Access databases and Excel tools for reporting and QA/QC.",
+    "Provided IT support, CAD documentation, and staff technical training.",
+    "Produced photography, graphic design, and content for the company website (see Projects)."
+   ],
+   "public": true
+  },
+  {
+   "id": "slayden",
+   "org": "Slayden Plumbing & Heating",
+   "title": "Purchasing Agent / IT Manager",
+   "alt_titles": [],
+   "start": "2015-05",
+   "end": "2016-08",
+   "dates": "May 2015 – Aug 2016",
+   "location": "North Pole, AK",
+   "type": "Between the two Central Mechanical stints",
+   "L1": "Ran purchasing, vendor contracts and IT for a plumbing and heating contractor.",
+   "L1_source": "CV",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Administered vendor contracts, procurement systems, and pricing.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Provided full-stack IT support: Exchange, Office 365, domain management, and PowerShell scripting.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Contract administration support and technical engineering specifications for submittals.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Created custom Excel VBA tools and performed email migrations.",
+     "source": "CV",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "Exchange",
+     "Office 365",
+     "Domain management",
+     "PowerShell",
+     "Excel VBA"
+    ]
+   },
+   "L4_source": "CV",
+   "L2": [
+    "Administered vendor contracts, procurement systems, and pricing.",
+    "Provided full-stack IT support: Exchange, Office 365, domain management, and PowerShell scripting."
+   ],
+   "L3": [
+    "Contract administration support and technical engineering specifications for submittals.",
+    "Created custom Excel VBA tools and performed email migrations."
+   ],
+   "public": true
+  },
+  {
+   "id": "frontier-supply",
+   "org": "Frontier Supply Company",
+   "title": "Inside Sales / Engineering Support",
+   "alt_titles": [],
+   "start": "2006-02",
+   "end": "2012-05",
+   "dates": "Feb 2006 – May 2012",
+   "location": "Fairbanks, AK",
+   "type": "",
+   "L1": "Managed multi-million-dollar plumbing, HVAC and mechanical accounts with sizing, design and bid support.",
+   "L1_source": "CV",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Managed multi-million-dollar accounts for plumbing, HVAC, and mechanical clients.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Provided sizing and design assistance; prepared bids and technical submittals.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Trained staff in POS and database systems (Epicor, SQL, Crystal Reports).",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Freight, logistics, and warehousing.",
+     "source": "CV",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "Epicor (Prophet 21)",
+     "SQL",
+     "Crystal Reports"
+    ]
+   },
+   "L4_source": "CV",
+   "L2": [
+    "Managed multi-million-dollar accounts for plumbing, HVAC, and mechanical clients.",
+    "Provided sizing and design assistance; prepared bids and technical submittals."
+   ],
+   "L3": [
+    "Trained staff in POS and database systems (Epicor, SQL, Crystal Reports).",
+    "Freight, logistics, and warehousing."
+   ],
+   "public": true
+  },
+  {
+   "id": "graphics",
+   "org": "Graphics Unlimited (Self-Employed) / Trademark, Inc. / Signs & Details",
+   "title": "Graphic Designer / Signwriter / Manager",
+   "alt_titles": [],
+   "start": "2001",
+   "end": "2015",
+   "dates": "2001 – 2015",
+   "location": "Fairbanks, AK",
+   "type": "",
+   "L1": "Designed and installed signage, vehicle wraps and specialty advertising for national brands in Alaska.",
+   "L1_source": "CV",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Designed and installed signage, vehicle wraps, embroidery, and laser engraving.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Served national brands in the greater Alaska area.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Business management, bookkeeping, and marketing.",
+     "source": "CV",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Graphic design and specialty advertising.",
+     "source": "CV",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "Adobe Creative Suite",
+     "FlexiSign"
+    ]
+   },
+   "L4_source": "CV",
+   "L2": [
+    "Designed and installed signage, vehicle wraps, embroidery, and laser engraving.",
+    "Served national brands in the greater Alaska area."
+   ],
+   "L3": [
+    "Business management, bookkeeping, and marketing.",
+    "Graphic design and specialty advertising."
+   ],
+   "public": true
+  }
+ ],
+ "projects": [
+  {
+   "id": "haarp-2017",
+   "title": "Amateur Radio Science Experiment at HAARP (crowd-funded ionospheric cross-modulation experiment)",
+   "dates": "Sep 2017 – Sep 2018",
+   "start": "2017-09",
+   "end": "2018-09",
+   "L1": "Raised funds for and designed the first crowd-funded experiment at HAARP, testing the frequency dependence of ionospheric cross-modulation.",
+   "L1_source": "LI, user",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Raised money for the first crowd-funded experiment time at the University of Alaska Fairbanks Geophysical Institute’s High-frequency Active Auroral Research Program (HAARP), through a small Indiegogo campaign with Twitter and Facebook outreach.",
+     "source": "LI, user",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "Designed an experiment testing the hypothesis of the frequency dependence of ionospheric cross-modulation; UAF GI HAARP operations executed it on 26 Sep 2017 at 04:22 UTC.",
+     "source": "LI, user, Jeff",
+     "public": true
+    }
+   ],
+   "L4": {
+    "methods": [
+     "Ionospheric cross-modulation",
+     "Crowd funding (Indiegogo)",
+     "Social media outreach"
+    ],
+    "context": "Frequency block 2.75–3.25 MHz."
+   },
+   "L4_source": "user",
+   "L2": [
+    "Raised money for the first crowd-funded experiment time at the University of Alaska Fairbanks Geophysical Institute’s High-frequency Active Auroral Research Program (HAARP), through a small Indiegogo campaign with Twitter and Facebook outreach.",
+    "Designed an experiment testing the hypothesis of the frequency dependence of ionospheric cross-modulation; UAF GI HAARP operations executed it on 26 Sep 2017 at 04:22 UTC."
+   ],
+   "L3": [],
+   "public": true
+  },
+  {
+   "id": "ghosts-airglow",
+   "title": "Ghosts in the Airglow (Amanda Dawn Christie, HAARP / UAF Geophysical Institute)",
+   "dates": "Mar 2019",
+   "start": "2019-03",
+   "end": "2019-03",
+   "L1": "Provided software-defined radio reception and livestream transmission for an ionospheric transmission art project at HAARP.",
+   "L1_source": "LI, CV",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Contributed software-defined radio reception and livestream transmission for Amanda Dawn Christie.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Ghosts in the Air Glow is an ionospheric transmission art project using the HAARP Ionospheric Research Instrument; air glow (artificial aurora) and Luxembourg (ionospheric mixing) experiments were paired with AM-modulated NBTV video art, SSTV images, spoken word, and sound art, and shortwave listeners worldwide submitted reception reports.",
+     "source": "LI",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "Software-defined radio",
+     "Livestreaming"
+    ],
+    "methods": [
+     "NBTV",
+     "SSTV",
+     "Air glow and Luxembourg-effect experiments"
+    ]
+   },
+   "L4_source": "LI",
+   "L2": [
+    "Contributed software-defined radio reception and livestream transmission for Amanda Dawn Christie."
+   ],
+   "L3": [
+    "Ghosts in the Air Glow is an ionospheric transmission art project using the HAARP Ionospheric Research Instrument; air glow (artificial aurora) and Luxembourg (ionospheric mixing) experiments were paired with AM-modulated NBTV video art, SSTV images, spoken word, and sound art, and shortwave listeners worldwide submitted reception reports."
+   ],
+   "public": true
+  },
+  {
+   "id": "space-weather-ethereal",
+   "title": "Space Weather Ethereal",
+   "dates": "",
+   "start": "",
+   "end": "",
+   "L1": "A space-weather sonification web app.",
+   "L1_source": "user",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Turns space-weather data into sound in a web app; source code is public on GitHub.",
+     "source": "user",
+     "public": true
+    }
+   ],
+   "L4": {
+    "links": [
+     "https://github.com/jdak907/space-weather-ethereal"
+    ]
+   },
+   "L4_source": "user",
+   "L2": [
+    "Turns space-weather data into sound in a web app; source code is public on GitHub."
+   ],
+   "L3": [],
+   "public": true
+  },
+  {
+   "id": "north-post",
+   "title": "North Post Laterals Replacement, Fort Wainwright (Central Mechanical / Central Environmental)",
+   "dates": "May 2012 – Sep 2012",
+   "start": "2012-05",
+   "end": "2012-09",
+   "L1": "Designed a utiliduct piping system delivering steam, condensate, water and sewer laterals to ten buildings on Fort Wainwright.",
+   "L1_source": "LI",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Designed a utiliduct piping system to provide steam, condensate, water, and sewer service laterals to a total of ten buildings on Fort Wainwright.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 2,
+     "text": "The final design packet was reviewed and stamped by a Professional Engineer and was implemented and successfully executed on the project.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Design criteria: retrofit new utilities into an existing utilidor with adequate structural load-bearing capability and within its spatial limits.",
+     "source": "LI",
+     "public": true
+    },
+    {
+     "level": 3,
+     "text": "Composed the design in DraftSight CAD using site survey dimensions and hardware manufacturer CAD files.",
+     "source": "LI",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "DraftSight CAD"
+    ],
+    "metrics": [
+     "10 buildings served"
+    ]
+   },
+   "L4_source": "LI",
+   "L2": [
+    "Designed a utiliduct piping system to provide steam, condensate, water, and sewer service laterals to a total of ten buildings on Fort Wainwright.",
+    "The final design packet was reviewed and stamped by a Professional Engineer and was implemented and successfully executed on the project."
+   ],
+   "L3": [
+    "Design criteria: retrofit new utilities into an existing utilidor with adequate structural load-bearing capability and within its spatial limits.",
+    "Composed the design in DraftSight CAD using site survey dimensions and hardware manufacturer CAD files."
+   ],
+   "public": true
+  },
+  {
+   "id": "central-website",
+   "title": "Central Mechanical Website",
+   "dates": "Jan 2017",
+   "start": "2017-01",
+   "end": "2017-01",
+   "L1": "Produced the photography, graphic design and content for Central Mechanical’s business website.",
+   "L1_source": "LI",
+   "bullets": [
+    {
+     "level": 2,
+     "text": "Produced photography and graphic design and compiled content for the business website.",
+     "source": "LI",
+     "public": true
+    }
+   ],
+   "L4": {
+    "tools": [
+     "Photography",
+     "Graphic design"
+    ]
+   },
+   "L4_source": "LI",
+   "L2": [
+    "Produced photography and graphic design and compiled content for the business website."
+   ],
+   "L3": [],
+   "public": true
+  }
+ ],
+ "certifications": [
+  {
+   "name": "NQA-1 Practical Application",
+   "issuer": "ASME (The American Society of Mechanical Engineers)",
+   "date": "30 Oct 2026",
+   "id": "C78324",
+   "hours": "0.40 CEU; 4.5 PDH",
+   "source": "cert, LI",
+   "public": true
+  },
+  {
+   "name": "Radiation Worker II Training",
+   "issuer": "NV5 | Dade Moeller",
+   "date": "9 Jan 2026",
+   "id": "",
+   "hours": "",
+   "source": "cert, LI",
+   "public": true
+  },
+  {
+   "name": "Mitutoyo CNC/CMM MCOSMOS & GEOPAK Certificate",
+   "issuer": "Mitutoyo America Corporation",
+   "date": "Dec 2025",
+   "id": "",
+   "hours": "",
+   "source": "LI, cert",
+   "public": true
+  },
+  {
+   "name": "HandySCAN SILVER Elite, Inspection and Scan-to-CAD Basic Training",
+   "issuer": "Creaform",
+   "date": "25 Nov 2025",
+   "id": "PJ-247717-3",
+   "hours": "14 hours",
+   "source": "cert, LI",
+   "public": true
+  },
+  {
+   "name": "Small Unmanned Aircraft System (Part 107 sUAS) Remote Pilot",
+   "issuer": "Federal Aviation Administration",
+   "date": "May 2025",
+   "id": "",
+   "hours": "FAASTeam course “Part 107 Small UAS Initial – Part 61 Pilots” completed 26 Mar 2025",
+   "source": "LI, cert, CV",
+   "public": true
+  },
+  {
+   "name": "Instrument Rating (Airplane)",
+   "issuer": "Federal Aviation Administration",
+   "date": "Mar 2025",
+   "id": "",
+   "hours": "",
+   "source": "LI, CV, Jeff",
+   "public": true
+  },
+  {
+   "name": "Restricted Radiotelephone Operator Permit",
+   "issuer": "Federal Communications Commission",
+   "date": "Feb 2025",
+   "id": "",
+   "hours": "",
+   "source": "LI",
+   "public": true
+  },
+  {
+   "name": "Private Pilot License",
+   "issuer": "Federal Aviation Administration",
+   "date": "Nov 2024",
+   "id": "",
+   "hours": "",
+   "source": "LI, CV",
+   "public": true
+  },
+  {
+   "name": "Google Data Analytics Professional Certificate coursework (2–3 courses, including Foundations: Data, Data, Everywhere)",
+   "issuer": "Google / Coursera",
+   "date": "Mar 2022",
+   "id": "DKR4ZKDDBWAM (Foundations course)",
+   "hours": "",
+   "source": "LI, CV, Jeff",
+   "public": true
+  },
+  {
+   "name": "Amateur Radio License, Technician class (call sign KL4IU)",
+   "issuer": "Federal Communications Commission",
+   "date": "",
+   "id": "KL4IU",
+   "hours": "",
+   "source": "CV, Jeff",
+   "public": true
+  },
+  {
+   "name": "Certified Electronics Technician: Fender, Marshall, Korg",
+   "issuer": "Fender, Marshall, Korg",
+   "date": "c. 2015",
+   "id": "",
+   "hours": "",
+   "source": "CV; approximate date per Jeff",
+   "public": true
+  },
+  {
+   "name": "Beckett Residential Oil Burner / Tekmar Controls Advanced HVAC Controls",
+   "issuer": "Beckett; Tekmar",
+   "date": "c. 2014",
+   "id": "",
+   "hours": "",
+   "source": "CV; approximate date per Jeff",
+   "public": true
+  },
+  {
+   "name": "MSHA Part 48 Surface Certification",
+   "issuer": "Mine Safety and Health Administration",
+   "date": "c. 2014",
+   "id": "",
+   "hours": "",
+   "source": "CV; approximate date per Jeff",
+   "public": true
+  },
+  {
+   "name": "Quality Control Manager (QCM)",
+   "issuer": "US Army Corps of Engineers",
+   "date": "c. 2013",
+   "id": "",
+   "hours": "",
+   "source": "CV, LI; approximate date per Jeff",
+   "public": true
+  },
+  {
+   "name": "Alaska CESCL – SWPPP Certified",
+   "issuer": "Alaska (CESCL)",
+   "date": "c. 2013",
+   "id": "",
+   "hours": "",
+   "source": "CV; approximate date per Jeff",
+   "public": true
+  },
+  {
+   "name": "OSHA 30",
+   "issuer": "OSHA",
+   "date": "c. 2012",
+   "id": "",
+   "hours": "",
+   "source": "CV; approximate date per Jeff",
+   "public": true
+  },
+  {
+   "name": "Confined Space Entry Certification",
+   "issuer": "",
+   "date": "c. 2012",
+   "id": "",
+   "hours": "",
+   "source": "CV; approximate date per Jeff",
+   "public": true
+  }
+ ],
+ "courses": [
+  {
+   "name": "Asbestos Awareness",
+   "context": "Central Environmental / Central Mechanical",
+   "source": "LI"
+  },
+  {
+   "name": "Microsoft Excel Level 2",
+   "context": "",
+   "source": "LI"
+  },
+  {
+   "name": "Seismic Bracing Fundamentals for Contractors",
+   "context": "",
+   "source": "LI"
+  }
+ ],
+ "education": [],
+ "volunteering": [
+  {
+   "org": "Durham College",
+   "role": "Electronics Engineering Technology Program Advisory Committee member",
+   "dates": "Mar 2022 – 2024",
+   "cause": "Education",
+   "text": "Offered advice on critical graduate skills, industry trends, changing regulatory landscapes, and employment prospects.",
+   "source": "LI, CV, Jeff",
+   "public": true
+  },
+  {
+   "org": "GNU Radio Project",
+   "role": "Contributor",
+   "dates": "Mar 2020 – c. 2021",
+   "cause": "Science and Technology",
+   "text": "",
+   "source": "LI, CV; end date approximate per Jeff",
+   "public": true
+  },
+  {
+   "org": "New England Complex Systems Institute (NECSI)",
+   "role": "Volunteer, EndCoronavirus.org (Operation End Coronavirus)",
+   "dates": "Mar 2020 – c. 2021",
+   "cause": "Health",
+   "text": "",
+   "source": "LI, CV; end date approximate per Jeff",
+   "public": true
+  },
+  {
+   "org": "Operation Save Canadian Youth (OSCAY)",
+   "role": "Co-Host, Youthfull Stars Virtual Program 2021",
+   "dates": "Dec 2021 – c. 2022",
+   "cause": "Children",
+   "text": "OSCAY supports youths in the community to experience new opportunities, overcome barriers, build positive relationships, and improve their educational outcomes through Youth Awareness programs, counseling, and life skill and conflict resolution programs.",
+   "source": "LI, CV; end date approximate per Jeff",
+   "public": true
+  },
+  {
+   "org": "Vested Interest in K9s, Inc.",
+   "role": "Musician, fundraising event at the Alaska K9 Center",
+   "dates": "Aug 2016 – Sep 2016",
+   "cause": "Animal Welfare",
+   "text": "Performed live acoustic guitar at the Alaska K9 Center fundraiser to purchase ballistic vests for law enforcement K9s.",
+   "source": "LI, CV",
+   "public": true
+  },
+  {
+   "org": "Hearts & Horses Equine Therapy",
+   "role": "Volunteer",
+   "dates": "c. 2024",
+   "cause": "",
+   "text": "",
+   "source": "CV; date approximate per Jeff",
+   "public": true
+  },
+  {
+   "org": "Veterans Life Magazine",
+   "role": "Photo Editor, Graphic Design, Technical Project Manager",
+   "dates": "c. 2024",
+   "cause": "Veteran Support",
+   "text": "",
+   "source": "LI, CV; date approximate per Jeff",
+   "public": true
+  },
+  {
+   "org": "UAF Geophysical Institute (HAARP)",
+   "role": "HAARP research campaigns",
+   "dates": "2016 – 2019",
+   "cause": "Science and Technology",
+   "text": "Includes Ghosts in the Airglow (2019) and the 2017 crowd-funded experiment (see Projects).",
+   "source": "CV, LI",
+   "public": true
+  }
+ ],
+ "organizations": [
+  {
+   "name": "Arctic Amateur Radio Club KL7KC",
+   "source": "LI",
+   "public": true
+  }
+ ]
+}
