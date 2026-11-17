@@ -4,13 +4,19 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Jeff Dumps | Quality systems, energy data and engineering</title>
 <meta name="description" content="Jeff Dumps: nuclear quality systems, energy data and hands-on engineering.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <script>
 (function () {
   var raw = new URLSearchParams(location.search).get("level");
-  var n = raw == null || raw === "" ? 2 : parseInt(raw, 10);
-  if (!(n >= 1 && n <= 4)) n = 2;
+  var n = raw == null || raw === "" ? 1 : parseInt(raw, 10);
+  if (!(n >= 1 && n <= 4)) n = 1;
   document.documentElement.dataset.level = String(n);
+  document.documentElement.classList.add("js");
+  var hash = location.hash;
+  if (!hash || hash === "#top" || hash === "#main") document.documentElement.classList.add("at-top");
 })();
 </script>
 </head>
@@ -20,54 +26,60 @@
 <nav aria-label="Sections"><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#certs">Certifications</a><a href="#earlier">Earlier work</a><a href="#contact">Contact</a></nav></div></header>
 <main id="main">
 <section class="hero" id="top"><div class="wrap hero-grid">
-<div><p class="eyebrow">QMS Architect &middot; Valar Atomics</p>
+<div class="hero-copy"><p class="eyebrow">QMS Architect &middot; Valar Atomics</p>
 <h1>Jeff Dumps</h1>
 <p class="lead">I build quality management systems for nuclear energy, grounded in 20+ years of hands-on work in metrology, energy analytics, RF and electronics, and construction.</p>
 <p class="cta"><a class="btn" href="https://www.linkedin.com/in/jeffdumps/">LinkedIn</a><a class="btn ghost" href="https://github.com/jdak907">GitHub</a></p></div>
-<img class="portrait" src="photos/thumbs/neon_profile_1.jpg" alt="Portrait of Jeff Dumps" width="320" height="320">
+<figure class="portrait-frame"><img class="portrait" src="photos/neon_profile_1.jpg" alt="Portrait of Jeff Dumps" width="900" height="900"></figure>
 </div></section>
 
-<section id="about"><div class="wrap narrow"><h2>About</h2>
+<section id="about" class="rise"><div class="wrap narrow"><h2>About</h2>
 <p>I've spent more than twenty years in hands-on technical work. I started in Alaska, in signs, mechanical supply and construction project management. From there I moved into radio and electronics repair, cinema engineering, and SDR experiments at HAARP. Then came energy pricing and data automation.</p><p>Today I'm a QMS Architect at Valar Atomics, building the quality system for a DOE pilot reactor program. My work covers document control, calibration, corrective actions and lessons learned, all under DOE nuclear safety rules. I started there in the metrology lab, so I know what it takes to measure a part and prove the result.</p>
 <p>The common thread is that I like finding solutions, making things and helping people. I'm at home in startups, where I build the lab, write the procedure and train the team. I care about bridging the gap between theory and practice.</p>
 <blockquote><p><a href="https://en.wikipedia.org/wiki/Inveniam_viam"><em>Aut inveniam viam aut faciam.</em></a></p><footer>I will either find a way or make one. Attributed to Hannibal</footer></blockquote></div></section>
 
-<section id="projects"><div class="wrap">
+<section id="projects" class="rise"><div class="wrap">
 <h2>Featured projects</h2>
+<article class="feature-project">
+<div class="feature-shot"><img src="photos/space-weather-ethereal.jpg" alt="Space Weather Ethereal, with a NASA Blue Marble Earth and a resonance ring" width="1400" height="788"></div>
+<div>
+<p class="tag">Three.js &middot; NOAA space weather &middot; sound</p>
+<h3>Space Weather Ethereal</h3>
+<p>Real-time space-weather measurements, including the Kp index, drive a Three.js tour from the Sun to the aurora on NASA Blue Marble globes, and the same data is played as music.</p>
+<p class="cta"><a class="btn" href="https://jdak907.github.io/space-weather-ethereal/">Live site</a><a class="btn ghost" href="https://github.com/jdak907/space-weather-ethereal">GitHub</a></p>
+</div>
+</article>
 <div class="cards">
-<article class="card feature"><h3>Provenance</h3><p class="tag">Python &middot; signal processing &middot; forensics</p>
+<article class="card"><h3>Provenance</h3><p class="tag">Python &middot; signal processing &middot; forensics</p>
 <p>Recording forensics: where and when. It locates a recording from the Doppler slide of a passing aircraft matched to public ADS-B tracks, and dates it from the mains hum (ENF) in the audio or in the flicker of lights on video. A reference rebuilt from public seismic stations covers the Western US grid. Built as a privacy check that runs entirely on your own computer.</p>
 <a href="https://github.com/jdak907/provenance">View on GitHub &rarr;</a></article>
 <article class="card"><h3>ERCOT Energy Price Predictor</h3><p class="tag">Python &middot; energy markets</p>
 <p>Automation that downloads, processes and charts ERCOT data: solar, wind, system forecasts and day-ahead versus real-time prices, with styled Excel output, reserve-margin charts and optional Slack posts.</p>
 <a href="https://github.com/jdak907/ercot_energy_price_predictor">View on GitHub &rarr;</a></article>
-<article class="card"><h3>Distributed Energy Observability</h3><p class="tag">FastAPI &middot; TimescaleDB &middot; Streamlit</p>
-<p>A dockerized reference design for real-time telemetry from solar inverters, batteries and EV chargers: ingest, normalize, store, flag data gaps and show it all on a live dashboard.</p>
-<a href="https://github.com/jdak907/distributed-energy-observability">View on GitHub &rarr;</a></article>
 <article class="card"><h3>Autocatalytic System</h3><p class="tag">WebGL &middot; simulation</p>
 <p>An interactive, narrated 3D visualization of coupled equations for self-reinforcing AI growth, with energy, compute and data as constraints.</p>
-<a href="https://github.com/jdak907/autocatalytic-system">View on GitHub &rarr;</a></article>
+<p class="cta"><a class="btn" href="https://jdak907.github.io/autocatalytic-system/">Live site</a><a class="btn ghost" href="https://github.com/jdak907/autocatalytic-system">GitHub</a></p></article>
 </div></div></section>
 
-<section id="experience"><div class="wrap narrow">
+<section id="experience" class="rise"><div class="wrap narrow">
 <h2>Experience</h2>
 <div class="detail" id="detail">
   <div class="detail-top">
-    <p class="detail-kicker" id="level-kicker">Level 2</p>
-    <p class="detail-name" id="level-name">Key impact</p>
+    <p class="detail-kicker" id="level-kicker">Level 1</p>
+    <p class="detail-name" id="level-name">One-line headline</p>
   </div>
   <label class="sr-only" for="level">Detail level, 1 through 4. Higher levels include everything from the levels below.</label>
-  <input id="level" type="range" min="1" max="4" step="1" value="2" aria-valuemin="1" aria-valuemax="4" aria-valuenow="2" aria-valuetext="Level 2. Key impact">
+  <input id="level" type="range" min="1" max="4" step="1" value="1" aria-valuemin="1" aria-valuemax="4" aria-valuenow="1" aria-valuetext="Level 1. One-line headline">
   <div class="level-ticks" role="radiogroup" aria-label="Jump to a detail level">
-    <button type="button" role="radio" data-set-level="1" aria-checked="false" tabindex="-1">1 Headlines</button>
-    <button type="button" role="radio" data-set-level="2" aria-checked="true" tabindex="0">2 Impact</button>
+    <button type="button" role="radio" data-set-level="1" aria-checked="true" tabindex="0">1 Headlines</button>
+    <button type="button" role="radio" data-set-level="2" aria-checked="false" tabindex="-1">2 Impact</button>
     <button type="button" role="radio" data-set-level="3" aria-checked="false" tabindex="-1">3 Full</button>
     <button type="button" role="radio" data-set-level="4" aria-checked="false" tabindex="-1">4 Deep</button>
   </div>
 </div>
 <script>
 (function () {
-  var n = document.documentElement.dataset.level || "2";
+  var n = document.documentElement.dataset.level || "1";
   var input = document.getElementById("level");
   input.value = n;
   input.setAttribute("aria-valuenow", n);
@@ -89,12 +101,12 @@
 <noscript><p>Turn on JavaScript to read this section from the public CV.</p></noscript>
 </div></section>
 
-<section id="skills"><div class="wrap"><h2>Skills</h2><div class="cards"><article class="card"><h3>Metrology and quality</h3><p>Nuclear QMS, NQA-1, ANSI/ANS-15.8, 10 CFR 830, DOE O 420.1C, CAP/NCR/CAPA, calibration management, Mitutoyo CMM, PolyWorks, Keyence VL-870 and WM-6000, Creaform HandySCAN, Surphaser, GD&amp;T, 3D scanning, ASME B31.3 hydrostatic testing, inspection procedures, QA/QC</p></article><article class="card"><h3>Data and software</h3><p>SharePoint, Power Automate, Power Apps, Power BI, Three.js, Python, Pandas, NumPy, Plotly, Matplotlib, PostgreSQL, SQL, Excel VBA, Tableau, MATLAB, HTML/CSS/JS, Linux (RHEL, Ubuntu), Kubernetes, MicroShift</p></article><article class="card"><h3>RF and electronics</h3><p>GNU Radio, SDR, RF generators and matching networks, two-way radio, cellular amplifiers, cinema projection and audio, component-level repair, KiCad, Eagle</p></article><article class="card"><h3>Construction and CAD</h3><p>Project management, estimating, submittals, AutoCAD, Fusion 360, Trimble GPS/GIS, Trimble AutoBid Mechanical, Epicor Prophet 21</p></article></div></div></section>
-<section id="certs"><div class="wrap"><h2>Certifications and licenses</h2><ul class="grid-list"><li><strong>Private Pilot License with Instrument Rating</strong><span>FAA &middot; private pilot Nov 2024</span></li><li><strong>Part 107 Small Unmanned Aircraft (sUAS)</strong><span>FAA</span></li><li><strong>Restricted Radiotelephone Operator Permit</strong><span>FCC &middot; Feb 2025</span></li><li><strong>Amateur Radio License, KL4IU</strong><span>FCC</span></li><li><strong>USACE Construction Quality Control Manager (QCM)</strong><span>U.S. Army Corps of Engineers</span></li><li><strong>OSHA 30</strong><span>OSHA</span></li><li><strong>Alaska CESCL, SWPPP certified</strong><span>Alaska stormwater</span></li><li><strong>MSHA Part 48 Surface Mine</strong><span>Mining and Petroleum Training Service</span></li><li><strong>Permit-Required Confined Space Entry</strong><span>Lynden Training Center</span></li><li><strong>Beckett Residential Oil Burner / Tekmar Advanced HVAC Controls</strong><span>Manufacturer training</span></li><li><strong>Certified Electronics Technician</strong><span>Fender (Silver, Feb 2017) &middot; Korg (Dec 2018) &middot; Marshall (Jan 2019)</span></li><li><strong>Google Data Analytics Certificates</strong><span>Coursera &middot; 2022</span></li></ul></div></section>
+<section id="skills" class="rise"><div class="wrap"><h2>Skills</h2><div class="cards"><article class="card"><h3>Metrology and quality</h3><p>Nuclear QMS, NQA-1, ANSI/ANS-15.8, 10 CFR 830, DOE O 420.1C, CAP/NCR/CAPA, calibration management, Mitutoyo CMM, PolyWorks, Keyence VL-870 and WM-6000, Creaform HandySCAN, Surphaser, GD&amp;T, 3D scanning, ASME B31.3 hydrostatic testing, inspection procedures, QA/QC</p></article><article class="card"><h3>Data and software</h3><p>SharePoint, Power Automate, Power Apps, Power BI, Three.js, Python, Pandas, NumPy, Plotly, Matplotlib, PostgreSQL, SQL, Excel VBA, Tableau, MATLAB, HTML/CSS/JS, Linux (RHEL, Ubuntu), Kubernetes, MicroShift</p></article><article class="card"><h3>RF and electronics</h3><p>GNU Radio, SDR, RF generators and matching networks, two-way radio, cellular amplifiers, cinema projection and audio, component-level repair, KiCad, Eagle</p></article><article class="card"><h3>Construction and CAD</h3><p>Project management, estimating, submittals, AutoCAD, Fusion 360, Trimble GPS/GIS, Trimble AutoBid Mechanical, Epicor Prophet 21</p></article></div></div></section>
+<section id="certs" class="rise"><div class="wrap"><h2>Certifications and licenses</h2><ul class="grid-list"><li><strong>Private Pilot License with Instrument Rating</strong><span>FAA &middot; private pilot Nov 2024</span></li><li><strong>Part 107 Small Unmanned Aircraft (sUAS)</strong><span>FAA</span></li><li><strong>Restricted Radiotelephone Operator Permit</strong><span>FCC &middot; Feb 2025</span></li><li><strong>Amateur Radio License, KL4IU</strong><span>FCC</span></li><li><strong>USACE Construction Quality Control Manager (QCM)</strong><span>U.S. Army Corps of Engineers</span></li><li><strong>OSHA 30</strong><span>OSHA</span></li><li><strong>Alaska CESCL, SWPPP certified</strong><span>Alaska stormwater</span></li><li><strong>MSHA Part 48 Surface Mine</strong><span>Mining and Petroleum Training Service</span></li><li><strong>Permit-Required Confined Space Entry</strong><span>Lynden Training Center</span></li><li><strong>Beckett Residential Oil Burner / Tekmar Advanced HVAC Controls</strong><span>Manufacturer training</span></li><li><strong>Certified Electronics Technician</strong><span>Fender (Silver, Feb 2017) &middot; Korg (Dec 2018) &middot; Marshall (Jan 2019)</span></li><li><strong>Google Data Analytics Certificates</strong><span>Coursera &middot; 2022</span></li></ul></div></section>
 
-<section id="community"><div class="wrap narrow"><h2>Volunteer and community</h2><ul class="plain"><li><strong>Durham College</strong>, Electronics Engineering Technology Program Advisory Committee (2022 to 2024)</li><li><strong>HAARP research campaigns</strong>, UAF Geophysical Institute (2016 to 2019)</li><li><strong>Ghosts in the Airglow</strong>, Amanda Dawn Christie, at HAARP (2019)</li><li><strong>GNU Radio Project</strong>, contributor</li><li><strong>Operation End Coronavirus</strong>, New England Complex Systems Institute</li><li><strong>Hearts &amp; Horses</strong>, equine therapy</li><li><strong>Vested Interest in K9s</strong>, live guitar at a 2016 fundraiser for police dog vests</li><li><strong>Operation Save Canadian Youth</strong>, co-host of the Youthfull Stars virtual program (2021)</li><li><strong>Veterans Life Magazine</strong>, photo editor, graphic design and technical project management</li><li><strong>Arctic Amateur Radio Club, KL7KC</strong>, member</li></ul></div></section>
+<section id="community" class="rise"><div class="wrap narrow"><h2>Volunteer and community</h2><ul class="plain"><li><strong>Durham College</strong>, Electronics Engineering Technology Program Advisory Committee (2022 to 2024)</li><li><strong>HAARP research campaigns</strong>, UAF Geophysical Institute (2016 to 2019)</li><li><strong>Ghosts in the Airglow</strong>, Amanda Dawn Christie, at HAARP (2019)</li><li><strong>GNU Radio Project</strong>, contributor</li><li><strong>Operation End Coronavirus</strong>, New England Complex Systems Institute</li><li><strong>Hearts &amp; Horses</strong>, equine therapy</li><li><strong>Vested Interest in K9s</strong>, live guitar at a 2016 fundraiser for police dog vests</li><li><strong>Operation Save Canadian Youth</strong>, co-host of the Youthfull Stars virtual program (2021)</li><li><strong>Veterans Life Magazine</strong>, photo editor, graphic design and technical project management</li><li><strong>Arctic Amateur Radio Club, KL7KC</strong>, member</li></ul></div></section>
 
-<section id="earlier"><div class="wrap">
+<section id="earlier" class="rise"><div class="wrap">
 <h2>Earlier work</h2>
 <p class="sub">A sampler from construction, IT, radio, cinema, fabrication, design, signage and music. Tap a section to open it; tap a photo for full size.</p>
 <details class="era"><summary>Construction and carpentry</summary>
@@ -237,7 +249,7 @@
 <ul class="links"><li><a href="https://www.youtube.com/watch?v=zSrlpla4SX0">Alaska scenery</a></li><li><a href="https://www.youtube.com/watch?v=_v9I2o9O9FE">Demolition time-lapse</a></li><li><a href="https://www.youtube.com/watch?v=HeevNOxFUjI">GNU Radio + DigitalRF</a></li></ul></div></details>
 </div></section>
 
-<section id="contact"><div class="wrap narrow center">
+<section id="contact" class="rise"><div class="wrap narrow">
 <h2>Let's talk</h2>
 <p>The best way to reach me is on LinkedIn. My code lives on GitHub.</p>
 <p class="cta"><a class="btn" href="https://www.linkedin.com/in/jeffdumps/">LinkedIn</a><a class="btn ghost" href="https://github.com/jdak907">GitHub</a></p>
@@ -246,4 +258,5 @@
 <footer class="foot"><div class="wrap">&copy; <span id="y">2026</span> Jeff Dumps. Thanks for taking a look.</div></footer>
 <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 <script type="module" src="experience.js"></script>
+<script src="site.js"></script>
 </body></html>

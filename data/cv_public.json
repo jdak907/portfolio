@@ -2426,7 +2426,7 @@
    "dates": "",
    "start": "",
    "end": "",
-   "L1": "A space-weather sonification web app.",
+   "L1": "Real-time space-weather measurements, including the Kp index, drive a Three.js tour from the Sun to the aurora on NASA Blue Marble globes, and the same data is played as music.",
    "L1_source": "user",
    "bullets": [
     {
@@ -2438,6 +2438,7 @@
    ],
    "L4": {
     "links": [
+     "https://jdak907.github.io/space-weather-ethereal/",
      "https://github.com/jdak907/space-weather-ethereal"
     ]
    },
@@ -2528,7 +2529,7 @@
     "Produced photography and graphic design and compiled content for the business website."
    ],
    "L3": [],
-   "public": true
+   "public": false
   }
  ],
  "certifications": [
