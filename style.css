@@ -142,6 +142,7 @@ blockquote footer { margin-top: 12px; color: var(--muted); font-size: .95rem; fo
 .feature-project h3 { margin: 0 0 10px; font-size: clamp(1.8rem, 3vw, 2.6rem); letter-spacing: -0.03em; line-height: 1.1; }
 .feature-project .tag, .card .tag { color: var(--muted); font-size: .82rem; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 8px; }
 .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 32px; }
+#projects .cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .card { display: flex; flex-direction: column; padding: 22px 0 0; border-top: 1px solid var(--line); }
 .card h3 { margin: 0; font-size: 1.35rem; }
 .card p { flex: 1; }
@@ -257,7 +258,7 @@ html.js .rise.is-in { opacity: 1; transform: none; transition: opacity .7s ease,
   .wrap { padding: 0 20px; }
   section { padding: 72px 0; }
   .hero { align-items: center; padding-top: calc(var(--nav-h) + 28px); }
-  .hero-grid, .feature-project, .cards, .grid-list { grid-template-columns: 1fr; }
+  .hero-grid, .feature-project, .cards, #projects .cards, .grid-list { grid-template-columns: 1fr; }
   .portrait { aspect-ratio: 16 / 11; max-height: 320px; }
   .hero h1 { font-size: clamp(3.3rem, 16vw, 4.6rem); }
   .nav .wrap { align-items: flex-start; flex-direction: column; gap: 4px; }
