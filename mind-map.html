@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mind map · Jeff Dumps</title>
+<meta name="description" content="A mind map of Jeff Dumps’s CV. Click a branch, then drill a role from the headline down to tools, standards, and metrics.">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="cv.css">
+</head>
+<body class="cv-page map-page">
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav"><div class="wrap"><a class="brand" href="index.html">Jeff Dumps</a>
+<nav aria-label="Sections"><a href="index.html#projects">Projects</a><a href="index.html#experience">Experience</a><a href="index.html#skills">Skills</a><a href="index.html#certs">Certifications</a><a href="index.html#earlier">Earlier work</a><a href="index.html#contact">Contact</a><a class="nav-cv" href="mind-map.html" aria-current="page">Mind map</a><a class="nav-cv" href="slider.html">Slider</a></nav></div></header>
+<div class="sticky-tools">
+  <div class="wrap tools-inner">
+    <div class="tools-row">
+      <nav class="tabs" aria-label="CV presentations">
+        <a href="mind-map.html" aria-current="page">Mind map</a>
+        <a href="slider.html">Detail slider</a>
+      </nav>
+      <p class="view-note" id="map-help">Click a branch, then keep clicking a role. Each click adds a level, through tools and standards.</p>
+    </div>
+  </div>
+</div>
+<main id="main">
+  <div class="map-app">
+    <div class="map-stage" id="stage">
+      <div class="stage-tools">
+        <button type="button" id="zoom-in" aria-label="Zoom in">+</button>
+        <button type="button" id="zoom-out" aria-label="Zoom out">−</button>
+        <button type="button" id="fit-map">Fit</button>
+        <button type="button" id="reset-map">Reset</button>
+      </div>
+    </div>
+    <div class="mobile-map" id="mobile"></div>
+    <aside id="reader"><p class="loading">Loading the CV…</p></aside>
+  </div>
+</main>
+<p id="status" class="sr-only" aria-live="polite"></p>
+<footer class="foot"><div class="wrap">&copy; <span id="y">2026</span> Jeff Dumps. <a href="index.html">Portfolio</a></div></footer>
+<noscript><p class="error wrap">This page needs JavaScript to read the CV data.</p></noscript>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+<script src="vendor/d3.min.js"></script>
+<script type="module" src="mind-map.js"></script>
+</body>
+</html>
