@@ -96,6 +96,7 @@ function entryFrom(raw, kind, index) {
     dates: cleanText(raw.dates),
     location: cleanText(raw.location),
     type: cleanText(raw.type),
+    parent: cleanText(raw.parent),
     l1: cleanText(raw.L1),
     bullets,
     extras,
@@ -116,22 +117,8 @@ export function visibleBullets(entry, level) {
   return out;
 }
 
-export function metaLine(entry) {
-  return [entry.dates, entry.location, entry.type].filter(Boolean).join(" · ");
-}
-
-export function clip(text, max) {
-  const clean = cleanText(text);
-  if (clean.length <= max) return clean;
-  return `${clean.slice(0, Math.max(1, max - 1)).trimEnd()}…`;
-}
-
 export function levelLegend(model, level) {
   return model.levels[`L${level}`] || LEVEL_FALLBACK[`L${level}`] || "";
-}
-
-export function findEntry(model, id) {
-  return model.roles.find((entry) => entry.id === id) || model.projects.find((entry) => entry.id === id) || null;
 }
 
 export function buildModel(raw) {

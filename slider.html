@@ -3,51 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Detail slider · Jeff Dumps</title>
-<meta name="description" content="Jeff Dumps’s CV with a detail slider. Level 1 is headlines. Each step adds impact, the full record, then tools and standards.">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="cv.css">
+<title>Experience · Jeff Dumps</title>
+<link rel="canonical" href="index.html#experience">
+<meta http-equiv="refresh" content="0; url=index.html#experience">
 <script>
-(function () {
-  var n = parseInt(new URLSearchParams(location.search).get("level") || "1", 10);
-  if (!(n >= 1 && n <= 4)) n = 1;
-  document.documentElement.dataset.level = String(n);
-})();
+  var params = new URLSearchParams(location.search);
+  var level = params.get("level");
+  var next = "index.html";
+  if (level) next += "?level=" + encodeURIComponent(level);
+  next += "#experience";
+  location.replace(next);
 </script>
 </head>
-<body class="cv-page">
-<a class="skip" href="#main">Skip to content</a>
-<header class="nav"><div class="wrap"><a class="brand" href="index.html">Jeff Dumps</a>
-<nav aria-label="Sections"><a href="index.html#projects">Projects</a><a href="index.html#experience">Experience</a><a href="index.html#skills">Skills</a><a href="index.html#certs">Certifications</a><a href="index.html#earlier">Earlier work</a><a href="index.html#contact">Contact</a><a class="nav-cv" href="mind-map.html">Mind map</a><a class="nav-cv" href="slider.html" aria-current="page">Slider</a></nav></div></header>
-<div class="sticky-tools">
-  <div class="cv-column tools-inner">
-    <div class="tools-row">
-      <nav class="tabs" aria-label="CV presentations">
-        <a href="mind-map.html">Mind map</a>
-        <a href="slider.html" aria-current="page">Detail slider</a>
-      </nav>
-      <p class="view-note">Two ways to read one CV. This one uses a slider.</p>
-    </div>
-    <div class="level-bar">
-      <div class="level-top">
-        <span id="level-kicker">Level 1</span>
-        <span id="level-name">One-line headline</span>
-      </div>
-      <label class="sr-only" for="level">Detail level, 1 through 4. Higher levels include everything from the levels below.</label>
-      <input id="level" type="range" min="1" max="4" step="1" value="1" aria-valuemin="1" aria-valuemax="4" aria-valuenow="1">
-      <div class="level-ticks" role="group" aria-label="Jump to a detail level">
-        <button type="button" data-set-level="1" aria-pressed="true">1 Headlines</button>
-        <button type="button" data-set-level="2" aria-pressed="false">2 Impact</button>
-        <button type="button" data-set-level="3" aria-pressed="false">3 Full</button>
-        <button type="button" data-set-level="4" aria-pressed="false">4 Deep</button>
-      </div>
-    </div>
-  </div>
-</div>
-<main id="main"><div class="cv-column"><p class="loading">Loading the CV…</p></div></main>
-<footer class="foot"><div class="wrap">&copy; <span id="y">2026</span> Jeff Dumps. <a href="index.html">Portfolio</a></div></footer>
-<noscript><p class="error cv-column">This page needs JavaScript to read the CV data.</p></noscript>
-<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
-<script type="module" src="slider.js"></script>
+<body>
+<p>The detail slider now lives in the <a id="go" href="index.html#experience">Experience</a> section.</p>
+<script>
+  var link = document.getElementById("go");
+  var level = new URLSearchParams(location.search).get("level");
+  if (level) link.href = "index.html?level=" + encodeURIComponent(level) + "#experience";
+</script>
 </body>
 </html>
