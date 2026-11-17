@@ -11,8 +11,8 @@
 <script>
 (function () {
   var raw = new URLSearchParams(location.search).get("level");
-  var n = raw == null || raw === "" ? 2 : parseInt(raw, 10);
-  if (!(n >= 1 && n <= 4)) n = 2;
+  var n = raw == null || raw === "" ? 1 : parseInt(raw, 10);
+  if (!(n >= 1 && n <= 4)) n = 1;
   document.documentElement.dataset.level = String(n);
   document.documentElement.classList.add("js");
   var hash = location.hash;
@@ -58,28 +58,28 @@
 <a href="https://github.com/jdak907/ercot_energy_price_predictor">View on GitHub &rarr;</a></article>
 <article class="card"><h3>Autocatalytic System</h3><p class="tag">WebGL &middot; simulation</p>
 <p>An interactive, narrated 3D visualization of coupled equations for self-reinforcing AI growth, with energy, compute and data as constraints.</p>
-<a href="https://github.com/jdak907/autocatalytic-system">View on GitHub &rarr;</a></article>
+<p class="cta"><a class="btn" href="https://jdak907.github.io/autocatalytic-system/">Live site</a><a class="btn ghost" href="https://github.com/jdak907/autocatalytic-system">GitHub</a></p></article>
 </div></div></section>
 
 <section id="experience" class="rise"><div class="wrap narrow">
 <h2>Experience</h2>
 <div class="detail" id="detail">
   <div class="detail-top">
-    <p class="detail-kicker" id="level-kicker">Level 2</p>
-    <p class="detail-name" id="level-name">Key impact</p>
+    <p class="detail-kicker" id="level-kicker">Level 1</p>
+    <p class="detail-name" id="level-name">One-line headline</p>
   </div>
   <label class="sr-only" for="level">Detail level, 1 through 4. Higher levels include everything from the levels below.</label>
-  <input id="level" type="range" min="1" max="4" step="1" value="2" aria-valuemin="1" aria-valuemax="4" aria-valuenow="2" aria-valuetext="Level 2. Key impact">
+  <input id="level" type="range" min="1" max="4" step="1" value="1" aria-valuemin="1" aria-valuemax="4" aria-valuenow="1" aria-valuetext="Level 1. One-line headline">
   <div class="level-ticks" role="radiogroup" aria-label="Jump to a detail level">
-    <button type="button" role="radio" data-set-level="1" aria-checked="false" tabindex="-1">1 Headlines</button>
-    <button type="button" role="radio" data-set-level="2" aria-checked="true" tabindex="0">2 Impact</button>
+    <button type="button" role="radio" data-set-level="1" aria-checked="true" tabindex="0">1 Headlines</button>
+    <button type="button" role="radio" data-set-level="2" aria-checked="false" tabindex="-1">2 Impact</button>
     <button type="button" role="radio" data-set-level="3" aria-checked="false" tabindex="-1">3 Full</button>
     <button type="button" role="radio" data-set-level="4" aria-checked="false" tabindex="-1">4 Deep</button>
   </div>
 </div>
 <script>
 (function () {
-  var n = document.documentElement.dataset.level || "2";
+  var n = document.documentElement.dataset.level || "1";
   var input = document.getElementById("level");
   input.value = n;
   input.setAttribute("aria-valuenow", n);

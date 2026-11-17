@@ -146,8 +146,9 @@ blockquote footer { margin-top: 12px; color: var(--muted); font-size: .95rem; fo
 .card { display: flex; flex-direction: column; padding: 22px 0 0; border-top: 1px solid var(--line); }
 .card h3 { margin: 0; font-size: 1.35rem; }
 .card p { flex: 1; }
-.card a { font-weight: 500; text-decoration: none; border-bottom: 1px solid var(--ink); align-self: flex-start; }
-.card a:hover { border-bottom-color: transparent; }
+.card .cta { flex: 0 0 auto; margin-top: 16px; }
+.card a:not(.btn) { font-weight: 500; text-decoration: none; border-bottom: 1px solid var(--ink); align-self: flex-start; }
+.card a:not(.btn):hover { border-bottom-color: transparent; }
 @media (prefers-reduced-motion: no-preference) {
   .feature-project img { transition: transform .7s ease; }
   .feature-project:hover img { transform: scale(1.03); }

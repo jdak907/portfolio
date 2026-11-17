@@ -7,7 +7,7 @@ const ticks = document.querySelector(".level-ticks");
 
 function initialLevel() {
   const n = Number(document.documentElement.dataset.level);
-  return n >= 1 && n <= 4 ? n : 2;
+  return n >= 1 && n <= 4 ? n : 1;
 }
 
 function showError() {
@@ -20,7 +20,7 @@ function showError() {
 }
 
 function applyLevel(model, level, { writeUrl = false } = {}) {
-  const next = Math.min(4, Math.max(1, Number(level) || 2));
+  const next = Math.min(4, Math.max(1, Number(level) || 1));
   document.documentElement.dataset.level = String(next);
   input.value = String(next);
   const caption = levelLegend(model, next);
